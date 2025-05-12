@@ -31,10 +31,10 @@ EMAIL_FROM = "towihi3172@noroasis.com"
 EMAIL_TO = "mipoje1144@exclussi.com"
 
 # --- Paramètres Twilio ---
-TWILIO_SID = ""
-TWILIO_AUTH_TOKEN = ""
-TWILIO_PHONE = ""
-RECIPIENT_PHONE = ""
+#TWILIO_SID = ""
+#TWILIO_AUTH_TOKEN = ""
+#TWILIO_PHONE = ""
+#RECIPIENT_PHONE = ""
 """
 SMTP_SERVER = getattr(settings, "EMAIL_HOST", "sandbox.smtp.mailtrap.io")
 SMTP_PORT = getattr(settings, "EMAIL_PORT", 587)
@@ -43,9 +43,9 @@ SMTP_PASSWORD = getattr(settings, "EMAIL_HOST_PASSWORD", "")
 EMAIL_FROM = getattr(settings, "DEFAULT_FROM_EMAIL", "security@example.com")
 
 # Paramètres Twilio (à configurer dans settings.py)
-TWILIO_SID = getattr(settings, "TWILIO_ACCOUNT_SID", "")
-TWILIO_AUTH_TOKEN = getattr(settings, "TWILIO_AUTH_TOKEN", "")
-TWILIO_PHONE = getattr(settings, "TWILIO_PHONE_NUMBER", "")
+#TWILIO_SID = getattr(settings, "TWILIO_ACCOUNT_SID", "")
+#TWILIO_AUTH_TOKEN = getattr(settings, "TWILIO_AUTH_TOKEN", "")
+#TWILIO_PHONE = getattr(settings, "TWILIO_PHONE_NUMBER", "")
 
 def shorten_url(long_url):
     try:

@@ -190,9 +190,9 @@ CRONJOBS = [
 ]
 
 # Paramètres Twilio
-TWILIO_ACCOUNT_SID = ''
-TWILIO_AUTH_TOKEN = ''
-TWILIO_PHONE_NUMBER = ''
+#TWILIO_ACCOUNT_SID = ''
+#TWILIO_AUTH_TOKEN = ''
+#TWILIO_PHONE_NUMBER = ''
 
 # Paramètres Email
 EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
