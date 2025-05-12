@@ -31,10 +31,7 @@ EMAIL_FROM = "towihi3172@noroasis.com"
 EMAIL_TO = "mipoje1144@exclussi.com"
 
 # --- Paramètres Twilio ---
-#TWILIO_SID = ""
-#TWILIO_AUTH_TOKEN = ""
-#TWILIO_PHONE = ""
-#RECIPIENT_PHONE = ""
+
 """
 SMTP_SERVER = getattr(settings, "EMAIL_HOST", "sandbox.smtp.mailtrap.io")
 SMTP_PORT = getattr(settings, "EMAIL_PORT", 587)
@@ -42,10 +39,7 @@ SMTP_USERNAME = getattr(settings, "EMAIL_HOST_USER", "")
 SMTP_PASSWORD = getattr(settings, "EMAIL_HOST_PASSWORD", "")
 EMAIL_FROM = getattr(settings, "DEFAULT_FROM_EMAIL", "security@example.com")
 
-# Paramètres Twilio (à configurer dans settings.py)
-#TWILIO_SID = getattr(settings, "TWILIO_ACCOUNT_SID", "")
-#TWILIO_AUTH_TOKEN = getattr(settings, "TWILIO_AUTH_TOKEN", "")
-#TWILIO_PHONE = getattr(settings, "TWILIO_PHONE_NUMBER", "")
+
 
 def shorten_url(long_url):
     try:
@@ -126,7 +120,7 @@ def send_sms_alert(message, image_url=None):
         print("Aucun agent avec numéro valide configuré pour recevoir des SMS")
         return False
 
-    #client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
+    client = Client(SID, TOKEN)
     
     for agent in agents:
         try:
