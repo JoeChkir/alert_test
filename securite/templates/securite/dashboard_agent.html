@@ -1,0 +1,50 @@
+{% extends "securite/base_agent.html" %}
+
+{% block content %}
+<div class="dashboard">
+    <header class="header">
+        <h1><i class="fas fa-user-shield"></i> Interface Agent de Sécurité</h1>
+        <div class="header-controls">
+            <div class="datetime">
+                <span id="current-date"></span>
+                <span id="current-time"></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <div class="container">
+            <!-- Même tableau que le dashboard admin mais sans les boutons d'action -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Date/Heure</th>
+                        <th>Statut</th>
+                        <th>Capture</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for alerte in alertes %}
+                    <tr>
+                        <td>{{ alerte.get_nom_fichier }}</td>
+                        <td>{{ alerte.date|date:"d/m/Y H:i" }}</td>
+                        <td>
+                            {% if alerte.statut == 'intrus' %}
+                                <span style="color: #f44336;">INTRUS</span>
+                            {% else %}
+                                <span style="color: #FF9800;">ACCÈS NON AUTORISÉ</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            <img src="{{ alerte.image.url }}" class="screenshot" 
+                                 onclick="showScreenshot('{{ alerte.image.url }}')">
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

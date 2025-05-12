@@ -1,0 +1,72 @@
+{% extends "securite/base_admin.html" %}
+
+{% block content %}
+<div class="container">
+    <h2><i class="fas fa-users"></i> Liste des agents</h2>
+    <table class="agents-table">
+        <thead>
+            <tr>
+                <th style="width: 20%; min-width: 150px;">Nom</th>
+                <th style="width: 25%;">Email</th>
+                <th style="width: 15%;">Téléphone</th>
+                <th style="width: 10%;">SMS</th>
+                <th style="width: 10%;">Email</th>
+                <th style="width: 20%;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for agent in agents %}
+            <tr>
+                <td style="font-weight: 600; color: #333;">{{ agent.nom|default:"-" }}</td>
+                <td>{{ agent.email|default:"-" }}</td>
+                <td style="font-family: monospace;">{{ agent.telephone|default:"-" }}</td>
+                <td style="text-align: center;">
+                    {% if agent.recoit_sms %}
+                        <i class="fas fa-check-circle" style="color: #4CAF50;"></i>
+                    {% else %}
+                        <i class="fas fa-times-circle" style="color: #f44336;"></i>
+                    {% endif %}
+                </td>
+                <td style="text-align: center;">
+                    {% if agent.recoit_email %}
+                        <i class="fas fa-check-circle" style="color: #4CAF50;"></i>
+                    {% else %}
+                        <i class="fas fa-times-circle" style="color: #f44336;"></i>
+                    {% endif %}
+                </td>
+                <td>
+                    <a href="{% url 'modifier_agent' agent.id %}" class="btn btn-sm btn-edit">
+                        <i class="fas fa-edit"></i> Modifier
+                    </a>
+                    <a href="{% url 'supprimer_agent' agent.id %}" class="btn btn-sm btn-delete">
+                        <i class="fas fa-trash"></i> Supprimer
+                    </a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<style>
+    .agents-table td, .agents-table th {
+        padding: 12px 15px;
+        vertical-align: middle;
+    }
+    
+    .btn-sm {
+        padding: 5px 10px;
+        font-size: 0.8rem;
+    }
+    
+    .btn-edit {
+        background-color: #2196F3;
+        color: white;
+    }
+    
+    .btn-delete {
+        background-color: #f44336;
+        color: white;
+    }
+</style>
+{% endblock %}

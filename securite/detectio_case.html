@@ -1,0 +1,133 @@
+{% extends "securite/base_admin.html" %}
+
+{% block content %}
+<div class="container">
+    <h1 class="mb-4">Détection en temps réel</h1>
+    
+    <div class="card">
+        <div class="card-body">
+            <div id="detection-container">
+                <h2>Détection en temps réel</h2>
+                
+                <button id="startDetection" class="btn btn-primary">
+                    <i class="fas fa-camera"></i> Démarrer la détection
+                </button>
+                
+                <div id="statusMessage" class="mt-3 alert" style="display: none;"></div>
+                
+                <div id="results" class="mt-4">
+                    <!-- Les résultats apparaîtront ici -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .alert {
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    
+    .alert-info {
+        color: #0c5460;
+        background-color: #d1ecf1;
+        border-color: #bee5eb;
+    }
+    
+    .alert-success {
+        color: #155724;
+        background-color: #d4edda;
+        border-color: #c3e6cb;
+    }
+    
+    .alert-danger {
+        color: #721c24;
+        background-color: #f8d7da;
+        border-color: #f5c6cb;
+    }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const startBtn = document.getElementById('startDetection');
+    const statusDiv = document.getElementById('statusMessage');
+    const resultsDiv = document.getElementById('results');
+    
+    // Fonction pour afficher un message de statut
+    function showStatus(message, type) {
+        statusDiv.textContent = message;
+        statusDiv.className = `alert alert-${type}`;
+        statusDiv.style.display = 'block';
+    }
+    
+    // Fonction pour afficher les résultats
+    function showResults(data) {
+        if(data.status === 'success') {
+            resultsDiv.innerHTML = `
+                <div class="alert alert-success">
+                    <i class="fas fa-check-circle"></i> Détection réussie !
+                    <p>Confiance: ${data.confidence || 'N/A'}%</p>
+                </div>
+            `;
+        } else {
+            resultsDiv.innerHTML = `
+                <div class="alert alert-danger">
+                    <i class="fas fa-exclamation-circle"></i> ${data.message || 'Erreur inconnue'}
+                </div>
+            `;
+        }
+    }
+    
+    // Gestion du clic sur le bouton de détection
+    startBtn.addEventListener('click', function() {
+        // Réinitialiser l'affichage
+        statusDiv.style.display = 'none';
+        resultsDiv.innerHTML = '';
+        
+        // Afficher le statut de chargement
+        showStatus("Détection en cours...", "info");
+        startBtn.disabled = true;
+        
+        fetch('{% url "detection_temps_reel" %}', {
+            method: 'POST',
+            headers: {
+                'X-CSRFToken': '{{ csrf_token }}',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                action: 'start_detection',
+                timestamp: new Date().toISOString()
+            })
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Erreur réseau');
+            }
+            return response.json();
+        })
+        .then(data => {
+            if(data.status === 'success') {
+                showStatus("Détection terminée", "success");
+                showResults(data);
+            } else {
+                throw new Error(data.message || 'Erreur lors de la détection');
+            }
+        })
+        .catch(error => {
+            showStatus("Erreur lors de la détection", "danger");
+            resultsDiv.innerHTML = `
+                <div class="alert alert-danger">
+                    <i class="fas fa-exclamation-triangle"></i> ${error.message}
+                </div>
+            `;
+        })
+        .finally(() => {
+            startBtn.disabled = false;
+        });
+    });
+});
+</script>
+{% endblock %}

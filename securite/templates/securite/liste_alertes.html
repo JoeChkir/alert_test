@@ -1,0 +1,24 @@
+<!-- templates/base_generic.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Interface de Sécurité</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2rem; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>⚠️ Interface Sécurité Admin</h1>
+        <hr>
+    </header>
+    
+    {% block content %}
+    <!-- Le contenu spécifique de chaque page s'insèrera ici -->
+    {% endblock %}
+</body>
+</html>

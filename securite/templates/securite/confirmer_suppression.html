@@ -1,0 +1,18 @@
+{% extends "securite/base_admin.html" %}
+
+{% block content %}
+<div class="container">
+    <h2><i class="fas fa-user-times"></i> Confirmer la suppression</h2>
+    <p>Êtes-vous sûr de vouloir supprimer l'agent <strong>{{ agent.username }}</strong> ?</p>
+    
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn" style="background-color: #f44336;">
+            <i class="fas fa-trash"></i> Confirmer
+        </button>
+        <a href="{% url 'liste_agents' %}" class="btn">
+            <i class="fas fa-times"></i> Annuler
+        </a>
+    </form>
+</div>
+{% endblock %}

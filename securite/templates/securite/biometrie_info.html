@@ -1,0 +1,44 @@
+<!-- securite/templates/securite/biometrie_info.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Information Biométrie</title>
+    <style>
+        .biometry-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 1rem;
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="biometry-container">
+        <h1>Biométrie et Tatouage Numérique</h1>
+        
+        <h2>Qu'est-ce que la biométrie ?</h2>
+        <p>La biométrie est une méthode d'identification basée sur des caractéristiques physiques uniques comme les traits du visage.</p>
+        
+        <h2>Notre approche sécurisée :</h2>
+        <ul>
+            <li>Conversion immédiate en vecteur anonyme</li>
+            <li>Floutage des caractéristiques identifiables</li>
+            <li>Chiffrement des données biométriques</li>
+            <li>Suppression automatique après 30 jours</li>
+        </ul>
+
+        <h2>Tatouage numérique :</h2>
+        <p>Technique permettant d'encoder des informations de manière invisible dans les données biométriques pour assurer leur traçabilité sécurisée.</p>
+
+        <a href="{% url 'consentement_form' %}" class="back-link">← Retour au formulaire de consentement</a>
+    </div>
+</body>
+</html>

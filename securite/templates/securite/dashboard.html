@@ -1,0 +1,311 @@
+{% extends "securite/base_admin.html" %}
+{% load static %}
+
+{% block content %}
+<div class="dashboard-fullscreen">
+    <!-- Section Navigation -->
+    <div class="admin-nav">
+        <h2><i class="fas fa-shield-alt"></i> Administration des Agents</h2>
+        <div class="nav-links">
+            <a href="{% url 'liste_agents' %}" class="nav-link active">
+                <i class="fas fa-list"></i> Liste des Agents
+            </a>
+            <a href="{% url 'creer_agent' %}" class="nav-link">
+                <i class="fas fa-plus"></i> Créer un Agent
+            </a>
+            <a href="{% url 'dashboard' %}" class="nav-link">
+                <i class="fas fa-arrow-left"></i> Retour au Dashboard
+            </a>
+        </div>
+    </div>
+
+    <!-- Contenu Principal -->
+    <div class="main-content-wrapper">
+        <!-- Section Agents -->
+        <div class="agents-section">
+            <div class="section-header">
+                <h3><i class="fas fa-users"></i> Liste des Agents</h3>
+            </div>
+            <div class="table-responsive">
+                <table class="agents-table">
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Email</th>
+                            <th>Téléphone</th>
+                            <th>SMS</th>
+                            <th>Email</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for agent in agents %}
+                        <tr>
+                            <td>{{ agent.nom }}</td>
+                            <td>{{ agent.email }}</td>
+                            <td>{{ agent.telephone }}</td>
+                            <td class="text-center">
+                                {% if agent.recoit_sms %}
+                                    <i class="fas fa-check-circle text-success"></i>
+                                {% else %}
+                                    <i class="fas fa-times-circle text-danger"></i>
+                                {% endif %}
+                            </td>
+                            <td class="text-center">
+                                {% if agent.recoit_email %}
+                                    <i class="fas fa-check-circle text-success"></i>
+                                {% else %}
+                                    <i class="fas fa-times-circle text-danger"></i>
+                                {% endif %}
+                            </td>
+                            <td class="actions">
+                                <a href="{% url 'modifier_agent' agent.id %}" class="btn btn-sm btn-primary">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                                <a href="{% url 'supprimer_agent' agent.id %}" class="btn btn-sm btn-danger">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Section Alertes -->
+        <div class="alertes-section">
+            <div class="section-header">
+                <h3><i class="fas fa-bell"></i> Alertes Récentes (RGPD-compatible)</h3>
+            </div>
+            <div class="table-responsive">
+                <table class="alertes-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Date</th>
+                            <th>Confiance</th>
+                            <th>Statut</th>
+                            <th>Capture</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for alerte in alertes %}
+                        <tr>
+                            <td>#{{ alerte.id }}</td>
+                            <td>{{ alerte.date|date:"d/m/Y H:i" }}</td>
+                            <td>{{ alerte.confiance|floatformat:2 }}%</td>
+                            <td>
+                                {% if alerte.statut == 'intrus' %}
+                                    <span class="badge badge-danger">INTRUS</span>
+                                {% else %}
+                                    <span class="badge badge-warning">ACCÈS NON AUTORISÉ</span>
+                                {% endif %}
+                            </td>
+                            <td>
+                                {% if alerte.image %}
+                                    <span class="badge badge-success">Vectorisée</span>
+                                {% else %}
+                                    <span class="badge badge-secondary">Non stockée</span>
+                                {% endif %}
+                            </td>
+                            <td class="actions">
+                                <form method="post" action="{% url 'gerer_alerte' alerte.id %}" style="display: inline;">
+                                    {% csrf_token %}
+                                    <input type="hidden" name="action" value="email">
+                                    <button type="submit" class="btn btn-sm btn-info">
+                                        <i class="fas fa-envelope"></i> Email
+                                    </button>
+                                    </form>
+                                    <form method="post" action="{% url 'gerer_alerte' alerte.id %}" style="display: inline;">
+                                        {% csrf_token %} 
+                                    <input type="hidden" name="action" value="sms">
+                                    <button type="submit" class="btn btn-sm btn-primary">
+                                        <i class="fas fa-sms"></i> SMS
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                        {% empty %}
+                        <tr>
+                            <td colspan="6" class="text-center">Aucune alerte récente</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Structure principale */
+    .dashboard-fullscreen {
+        display: flex;
+        height: 100vh;
+        background-color: #f5f5f5;
+    }
+    
+    /* Navigation */
+    .admin-nav {
+        width: 250px;
+        background-color: #343a40;
+        color: white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .admin-nav h2 {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #4b545c;
+    }
+    
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .nav-link {
+        color: #adb5bd;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 4px;
+        transition: all 0.3s;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .nav-link:hover, .nav-link.active {
+        background-color: #495057;
+        color: white;
+    }
+    
+    .nav-link i {
+        width: 20px;
+        text-align: center;
+    }
+    
+    /* Contenu principal */
+    .main-content-wrapper {
+        flex: 1;
+        padding: 20px;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    /* Sections */
+    .agents-section, .alertes-section {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        overflow: hidden;
+    }
+    
+    .section-header {
+        padding: 15px 20px;
+        background-color: #f8f9fa;
+        border-bottom: 1px solid #e9ecef;
+    }
+    
+    .section-header h3 {
+        margin: 0;
+        font-size: 1.1rem;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    /* Tables */
+    .table-responsive {
+        overflow-x: auto;
+    }
+    
+    .agents-table, .alertes-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    .agents-table th, 
+    .agents-table td,
+    .alertes-table th,
+    .alertes-table td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #e9ecef;
+    }
+    
+    .agents-table th,
+    .alertes-table th {
+        background-color: #f8f9fa;
+        font-weight: 600;
+    }
+    
+    /* Badges */
+    .badge {
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 12px;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    
+    .badge-danger { background-color: #f44336; color: white; }
+    .badge-warning { background-color: #ff9800; color: white; }
+    .badge-success { background-color: #4CAF50; color: white; }
+    .badge-secondary { background-color: #6c757d; color: white; }
+    
+    /* Boutons */
+    .btn {
+        padding: 6px 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 0.85rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .btn-sm { padding: 5px 10px; }
+    .btn-primary { background-color: #2196F3; color: white; }
+    .btn-danger { background-color: #f44336; color: white; }
+    .btn-info { background-color: #17a2b8; color: white; }
+    
+    .actions {
+        white-space: nowrap;
+    }
+    
+    /* Icônes */
+    .text-success { color: #4CAF50; }
+    .text-danger { color: #f44336; }
+    .text-center { text-align: center; }
+</style>
+
+<script>
+// Version corrigée pour afficher les messages
+document.addEventListener('DOMContentLoaded', function() {
+    {% for message in messages %}
+        setTimeout(function() {
+            alert("{{ message|escapejs }}");
+        }, 100);
+    {% endfor %}
+});
+
+// Désactivation des boutons après clic
+document.querySelectorAll('form').forEach(form => {
+    form.addEventListener('submit', function() {
+        const btn = this.querySelector('button[type="submit"]');
+        btn.disabled = true;
+        btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Traitement...';
+    });
+});
+</script>
+{% endblock %}

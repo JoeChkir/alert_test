@@ -1,0 +1,47 @@
+{% extends "securite/base_admin.html" %}
+
+{% block content %}
+<div class="container">
+    <h2>Tester l'enregistrement du consentement</h2>
+    
+    <button id="btn-test-accepter" class="btn btn-success">
+        <i class="fas fa-check"></i> Tester Acceptation
+    </button>
+    
+    <button id="btn-test-refuser" class="btn btn-danger">
+        <i class="fas fa-times"></i> Tester Refus
+    </button>
+    
+    <div id="test-results" class="mt-3"></div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    function sendConsent(action) {
+        fetch('/enregistrer-consentement/', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': '{{ csrf_token }}'
+            },
+            body: JSON.stringify({ action })
+        })
+        .then(response => response.json())
+        .then(data => {
+            const resultsDiv = document.getElementById('test-results');
+            resultsDiv.innerHTML = `
+                <div class="alert alert-${data.status === 'success' ? 'success' : 'danger'}">
+                    ${data.message}
+                </div>
+            `;
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    }
+
+    document.getElementById('btn-test-accepter').addEventListener('click', () => sendConsent('accepter'));
+    document.getElementById('btn-test-refuser').addEventListener('click', () => sendConsent('refuser'));
+});
+</script>
+{% endblock %}

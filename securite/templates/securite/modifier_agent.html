@@ -1,0 +1,17 @@
+{% extends "securite/base_admin.html" %}
+
+{% block content %}
+<div class="container">
+    <h2><i class="fas fa-user-edit"></i> Modifier l'agent</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn primary">
+            <i class="fas fa-save"></i> Enregistrer
+        </button>
+        <a href="{% url 'liste_agents' %}" class="btn">
+            <i class="fas fa-arrow-left"></i> Annuler
+        </a>
+    </form>
+</div>
+{% endblock %}

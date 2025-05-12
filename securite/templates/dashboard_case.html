@@ -1,0 +1,195 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface de Gestion des Alertes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* [Vos styles CSS existants restent inchangés] */
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <header class="header">
+            <h1><i class="fas fa-shield-alt"></i> Interface de Gestion des Alertes</h1>
+            <div class="header-controls">
+                <div class="datetime">
+                    <span id="current-date"></span>
+                    <span id="current-time"></span>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div class="container">
+                {% if messages %}
+                {% for message in messages %}
+                    <div class="notification {% if message.tags %}{{ message.tags }}{% endif %}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+                {% endif %}
+
+                <!-- Section Agents -->
+                <div class="section-agents">
+                    <h2><i class="fas fa-users"></i> Liste des Agents</h2>
+                    <table class="agents-table">
+                        <thead>
+                            <tr>
+                                <th>Nom</th>
+                                <th>Email</th>
+                                <th>Téléphone</th>
+                                <th>Reçoit SMS</th>
+                                <th>Reçoit Email</th>
+                                <th>Statut</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for agent in agents %}
+                            <tr>
+                                <td style="font-weight: 600;">{{ agent.nom }}</td>
+                                <td>{{ agent.email }}</td>
+                                <td style="font-family: monospace;">{{ agent.telephone }}</td>
+                                <td style="text-align: center;">
+                                    {% if agent.recoit_sms %}
+                                        <i class="fas fa-check-circle" style="color: #4CAF50;"></i>
+                                    {% else %}
+                                        <i class="fas fa-times-circle" style="color: #f44336;"></i>
+                                    {% endif %}
+                                </td>
+                                <td style="text-align: center;">
+                                    {% if agent.recoit_email %}
+                                        <i class="fas fa-check-circle" style="color: #4CAF50;"></i>
+                                    {% else %}
+                                        <i class="fas fa-times-circle" style="color: #f44336;"></i>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    {% if agent.statut == 'actif' %}
+                                        <span class="badge badge-success">Actif</span>
+                                    {% elif agent.statut == 'inactif' %}
+                                        <span class="badge badge-danger">Inactif</span>
+                                    {% else %}
+                                        <span class="badge badge-warning">En congé</span>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Section Alertes (votre code existant) -->
+                <div class="section-alertes">
+                    <h2><i class="fas fa-bell"></i> Dernières Alertes</h2>
+                    <table>
+                        <!-- [Votre code existant pour les alertes] -->
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="system-info">
+                <span>Système de Gestion des Alertes v1.0</span>
+                <span>Dernière mise à jour: {% now "d/m/Y" %}</span>
+            </div>
+            <div class="quick-actions">
+                <button class="btn"><i class="fas fa-power-off"></i> Arrêt</button>
+                <button class="btn"><i class="fas fa-lock"></i> Verrouiller</button>
+                <button class="btn primary"><i class="fas fa-save"></i> Sauvegarder</button>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Exemple de données statiques (à remplacer par une lecture du fichier log côté serveur)
+        fetch("/alertes-json/")
+        .then(response => response.json())
+        .then(logData => {
+        const tableBody = document.getElementById("alerts-table");
+        logData.forEach(entry => {
+            const row = document.createElement("tr");
+            row.innerHTML = `
+                <td>${entry.label}</td>
+                <td>${entry.datetime}</td>
+                <td>${entry.confidence.toFixed(2)}%</td>
+                <td>${entry.status}</td>
+                <td><img src="${entry.screenshot}" class="screenshot" onclick="showScreenshot('${entry.screenshot}')"></td> 
+                <!-- to put in after the databse is ready <td><img src="${entry.screenshot}" class="screenshot" onclick="showScreenshot('${entry.screenshot}')"></td> --> 
+                <td>
+                    <button class="action-btn email-btn" onclick="sendEmail('${entry.label}', ${entry.confidence}, '${entry.status}', '${entry.screenshot}')">Email</button>
+                    <button class="action-btn sms-btn" onclick="sendSMS('${entry.label}', ${entry.confidence}, '${entry.status}')">SMS</button>
+                </td>
+            `;
+            tableBody.appendChild(row);
+        });
+    });
+        // Remplir le tableau avec les données
+        const tableBody = document.getElementById("alerts-table");
+        logData.forEach(entry => {
+            const row = document.createElement("tr");
+            row.innerHTML = `
+                <td>${entry.label}</td>
+                <td>${entry.datetime}</td>
+                <td>${entry.confidence.toFixed(2)}%</td>
+                <td>${entry.status}</td>
+                <td><img src="${entry.screenshot}" class="screenshot" onclick="showScreenshot('${entry.screenshot}')"></td>
+                <td>
+                    <button class="action-btn email-btn" onclick="sendEmail('${entry.label}', ${entry.confidence}, '${entry.status}', '${entry.screenshot}')">Email</button>
+                    <button class="action-btn sms-btn" onclick="sendSMS('${entry.label}', ${entry.confidence}, '${entry.status}')">SMS</button>
+                </td>
+            `;
+            tableBody.appendChild(row);
+        });
+
+        // Afficher la capture d'écran dans une modale
+        function showScreenshot(src) {
+            const modal = document.getElementById("screenshot-modal");
+            const modalImage = document.getElementById("modal-image");
+            modalImage.src = src;
+            modal.style.display = "flex";
+        }
+
+        // Fermer la modale
+        function closeModal() {
+            document.getElementById("screenshot-modal").style.display = "none";
+        }
+
+        // Simulation d'envoi d'email
+        function sendEmail(label, confidence, status, screenshot) {
+            const message = `
+                <h2>Alerte de Tentative d'Accès</h2>
+                <p><strong>Nom :</strong> ${label}</p>
+                <p><strong>Date/Heure :</strong> ${new Date().toLocaleString()}</p>
+                <p><strong>Confiance :</strong> ${confidence.toFixed(2)}%</p>
+                <p><strong>Statut :</strong> ${status}</p>
+                <p><strong>Capture d'écran :</strong></p>
+                <img src="${screenshot}" alt="Capture d'écran" style="max-width: 300px;">
+            `;
+            console.log("Envoi d'email avec le contenu suivant :");
+            console.log(message);
+            alert("Email envoyé (simulation) !");
+        }
+
+        // Simulation d'envoi de SMS
+        function sendSMS(label, confidence, status) {
+            const smsContent = `Alerte : ${label} | Confiance: ${confidence.toFixed(2)}% | Statut: ${status} | ${new Date().toLocaleString()}`;
+            console.log("Envoi de SMS avec le contenu suivant :");
+            console.log(smsContent);
+            alert("SMS envoyé (simulation) !");
+        }
+
+        // Mise à jour de la date et de l'heure en temps réel
+        function updateDateTime() {
+            const now = new Date();
+            document.getElementById("current-date").textContent = now.toLocaleDateString('fr-FR');
+            document.getElementById("current-time").textContent = now.toLocaleTimeString('fr-FR');
+        }
+        setInterval(updateDateTime, 1000);
+        updateDateTime();
+    </script>
+</body>
+</html>

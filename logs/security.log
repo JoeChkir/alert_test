@@ -1,0 +1,1175 @@
+INFO 2025-05-07 00:15:43,775 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-07 00:16:15,567 log Internal Server Error: /detection/
+WARNING 2025-05-07 00:16:40,880 views Méthode non autorisée: GET
+WARNING 2025-05-07 00:16:40,880 log Method Not Allowed: /enregistrer-consentement/
+WARNING 2025-05-07 00:16:45,928 views Méthode non autorisée: GET
+WARNING 2025-05-07 00:16:45,928 log Method Not Allowed: /enregistrer-consentement/
+WARNING 2025-05-07 00:17:05,972 views Méthode non autorisée: GET
+WARNING 2025-05-07 00:17:05,973 log Method Not Allowed: /enregistrer-consentement/
+WARNING 2025-05-07 00:17:09,096 views Méthode non autorisée: GET
+WARNING 2025-05-07 00:17:09,097 log Method Not Allowed: /enregistrer-consentement/
+WARNING 2025-05-07 00:17:10,370 views Méthode non autorisée: GET
+WARNING 2025-05-07 00:17:10,371 log Method Not Allowed: /enregistrer-consentement/
+WARNING 2025-05-07 00:17:14,731 views Méthode non autorisée: GET
+WARNING 2025-05-07 00:17:14,731 log Method Not Allowed: /enregistrer-consentement/
+INFO 2025-05-07 00:28:20,958 autoreload C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\alert_test\urls.py changed, reloading.
+INFO 2025-05-07 00:28:21,716 autoreload Watching for file changes with StatReloader
+INFO 2025-05-07 00:28:35,002 autoreload C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\alert_test\urls.py changed, reloading.
+INFO 2025-05-07 00:28:35,568 autoreload Watching for file changes with StatReloader
+INFO 2025-05-07 00:28:49,847 autoreload C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\alert_test\urls.py changed, reloading.
+INFO 2025-05-07 00:28:50,421 autoreload Watching for file changes with StatReloader
+INFO 2025-05-07 00:30:12,542 autoreload C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\alert_test\urls.py changed, reloading.
+INFO 2025-05-07 00:30:13,291 autoreload Watching for file changes with StatReloader
+INFO 2025-05-07 00:30:20,502 autoreload C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\alert_test\urls.py changed, reloading.
+INFO 2025-05-07 00:30:21,042 autoreload Watching for file changes with StatReloader
+INFO 2025-05-07 00:30:28,241 autoreload C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\alert_test\urls.py changed, reloading.
+INFO 2025-05-07 00:30:28,823 autoreload Watching for file changes with StatReloader
+INFO 2025-05-07 00:53:14,259 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-07 00:53:59,977 views Méthode non autorisée: GET
+WARNING 2025-05-07 00:53:59,977 log Method Not Allowed: /enregistrer-consentement/
+INFO 2025-05-07 00:54:20,820 views Consentement accepter enregistré
+INFO 2025-05-07 00:54:29,203 views Consentement accepter enregistré
+INFO 2025-05-07 00:54:30,087 views Consentement refuser enregistré
+INFO 2025-05-07 00:56:18,193 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-07 00:56:28,214 log Not Found: /favicon.ico
+INFO 2025-05-07 00:56:48,604 views Consentement refuser enregistré
+WARNING 2025-05-07 00:57:06,171 views Méthode non autorisée: GET
+WARNING 2025-05-07 00:57:06,172 log Method Not Allowed: /enregistrer-consentement/
+INFO 2025-05-07 22:13:54,852 autoreload Watching for file changes with StatReloader
+INFO 2025-05-07 22:14:10,595 autoreload C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\alert_test\urls.py changed, reloading.
+INFO 2025-05-07 22:14:11,220 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-07 22:14:34,163 views Méthode non autorisée: GET
+WARNING 2025-05-07 22:14:34,164 log Method Not Allowed: /enregistrer-consentement/
+WARNING 2025-05-07 22:14:36,396 views Méthode non autorisée: GET
+WARNING 2025-05-07 22:14:36,397 log Method Not Allowed: /enregistrer-consentement/
+WARNING 2025-05-07 22:14:37,001 views Méthode non autorisée: GET
+WARNING 2025-05-07 22:14:37,002 log Method Not Allowed: /enregistrer-consentement/
+WARNING 2025-05-07 22:14:40,025 views Méthode non autorisée: GET
+WARNING 2025-05-07 22:14:40,026 log Method Not Allowed: /enregistrer-consentement/
+INFO 2025-05-07 22:15:00,147 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-07 22:15:10,414 log Not Found: /favicon.ico
+WARNING 2025-05-07 22:15:34,407 views Méthode non autorisée: GET
+WARNING 2025-05-07 22:15:34,407 log Method Not Allowed: /enregistrer-consentement/
+WARNING 2025-05-07 22:15:37,261 views Méthode non autorisée: GET
+WARNING 2025-05-07 22:15:37,263 log Method Not Allowed: /enregistrer-consentement/
+WARNING 2025-05-07 22:15:37,843 views Méthode non autorisée: GET
+WARNING 2025-05-07 22:15:37,844 log Method Not Allowed: /enregistrer-consentement/
+WARNING 2025-05-07 22:15:38,602 views Méthode non autorisée: GET
+WARNING 2025-05-07 22:15:38,603 log Method Not Allowed: /enregistrer-consentement/
+WARNING 2025-05-07 22:15:38,838 views Méthode non autorisée: GET
+WARNING 2025-05-07 22:15:38,839 log Method Not Allowed: /enregistrer-consentement/
+WARNING 2025-05-07 22:15:39,239 views Méthode non autorisée: GET
+WARNING 2025-05-07 22:15:39,241 log Method Not Allowed: /enregistrer-consentement/
+WARNING 2025-05-07 22:15:41,057 views Méthode non autorisée: GET
+WARNING 2025-05-07 22:15:41,057 log Method Not Allowed: /enregistrer-consentement/
+ERROR 2025-05-07 22:15:59,429 log Internal Server Error: /detection/
+INFO 2025-05-07 22:16:43,405 views Consentement accepter enregistré
+WARNING 2025-05-07 22:17:09,669 views Méthode non autorisée: GET
+WARNING 2025-05-07 22:17:09,670 log Method Not Allowed: /enregistrer-consentement/
+WARNING 2025-05-07 22:17:11,906 views Méthode non autorisée: GET
+WARNING 2025-05-07 22:17:11,907 log Method Not Allowed: /enregistrer-consentement/
+INFO 2025-05-08 00:48:53,837 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 00:49:58,991 views Consentement accepter enregistré
+WARNING 2025-05-08 00:50:00,526 log Method Not Allowed: /capture-secure/
+WARNING 2025-05-08 00:50:05,053 log Method Not Allowed: /capture-secure/
+WARNING 2025-05-08 00:50:06,276 log Method Not Allowed: /capture-secure/
+INFO 2025-05-08 00:50:17,633 views Consentement refuser enregistré
+INFO 2025-05-08 00:50:18,412 views Consentement refuser enregistré
+INFO 2025-05-08 00:50:30,829 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 00:50:57,102 views Consentement refuser enregistré
+INFO 2025-05-08 00:51:03,241 views Consentement accepter enregistré
+WARNING 2025-05-08 00:51:04,762 log Method Not Allowed: /capture-secure/
+INFO 2025-05-08 00:56:33,370 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 00:58:53,050 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 01:00:45,179 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 01:06:03,923 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 01:10:07,755 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 01:12:46,831 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-08 01:12:55,234 log Internal Server Error: /detection/
+Traceback (most recent call last):
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 275, in detection_temps_reel
+    return render(request, 'securite/detection_temps_reel.html')
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detection_temps_reel' not found. 'detection_temps_reel' is not a valid view function or pattern name.
+INFO 2025-05-08 01:13:32,119 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-08 01:14:00,590 log Internal Server Error: /enregistrer-consentement/
+Traceback (most recent call last):
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 120, in enregistrer_consentement
+    return redirect('detection')  # Redirection vers la détection
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "c:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detection' not found. 'detection' is not a valid view function or pattern name.
+INFO 2025-05-08 01:15:07,287 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 13:21:09,890 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-08 13:21:20,086 log Not Found: /favicon.ico
+ERROR 2025-05-08 13:21:50,817 log Internal Server Error: /detection/
+INFO 2025-05-08 13:26:14,375 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-08 13:26:32,880 log Internal Server Error: /detection/
+INFO 2025-05-08 13:49:39,896 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 14:07:06,312 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-08 14:08:11,921 log Internal Server Error: /gerer-alerte/1/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 70, in gerer_alerte
+    image_url = f"{settings.SITE_URL}{alerte.image.url}" if alerte.image else None
+                                                            ^^^^^^^^^^^^
+AttributeError: 'AlerteAcces' object has no attribute 'image'
+ERROR 2025-05-08 14:08:21,400 log Internal Server Error: /gerer-alerte/1/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 70, in gerer_alerte
+    image_url = f"{settings.SITE_URL}{alerte.image.url}" if alerte.image else None
+                                                            ^^^^^^^^^^^^
+AttributeError: 'AlerteAcces' object has no attribute 'image'
+INFO 2025-05-08 15:11:02,443 autoreload Watching for file changes with StatReloader
+INFO 2025-05-09 12:41:29,887 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-09 12:41:41,793 log Not Found: /favicon.ico
+ERROR 2025-05-09 12:46:22,820 log Internal Server Error: /gerer-alerte/3/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 70, in gerer_alerte
+    image_url = f"{settings.SITE_URL}{alerte.image.url}" if alerte.image else None
+                                                            ^^^^^^^^^^^^
+AttributeError: 'AlerteAcces' object has no attribute 'image'
+ERROR 2025-05-09 12:46:26,552 log Internal Server Error: /gerer-alerte/3/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 70, in gerer_alerte
+    image_url = f"{settings.SITE_URL}{alerte.image.url}" if alerte.image else None
+                                                            ^^^^^^^^^^^^
+AttributeError: 'AlerteAcces' object has no attribute 'image'
+INFO 2025-05-09 12:50:26,873 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-09 12:50:37,974 log Internal Server Error: /gerer-alerte/3/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 70, in gerer_alerte
+    image_url = f"{settings.SITE_URL}{alerte.image.url}" if alerte.image else None
+                                                            ^^^^^^^^^^^^
+AttributeError: 'AlerteAcces' object has no attribute 'image'
+INFO 2025-05-09 12:57:37,911 autoreload C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py changed, reloading.
+INFO 2025-05-09 12:57:38,609 autoreload Watching for file changes with StatReloader
+INFO 2025-05-09 13:21:22,753 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-09 13:21:34,726 log Internal Server Error: /dashboard/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: securite_alerteacces.metadata
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 60, in dashboard
+    return render(request, 'securite/dashboard.html', context)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    if match:
+       ^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\db\models\query.py", line 398, in __bool__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\db\models\query.py", line 1935, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\db\models\sql\compiler.py", line 1622, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: securite_alerteacces.metadata
+INFO 2025-05-09 13:24:44,242 autoreload Watching for file changes with StatReloader
+INFO 2025-05-09 13:24:59,220 utils Email d'alerte envoyé à youssefsk.chkir@gmail.com (Alerte ID: 3)
+INFO 2025-05-09 15:07:01,173 autoreload Watching for file changes with StatReloader
+INFO 2025-05-09 15:20:03,765 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-09 15:20:03,767 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-09 15:20:03,767 __init__ Headers:
+INFO 2025-05-09 15:20:03,768 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-09 15:20:03,768 __init__ Accept : application/json
+INFO 2025-05-09 15:20:03,769 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-09 15:20:03,770 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-09 15:20:03,780 __init__ Accept-Charset : utf-8
+INFO 2025-05-09 15:20:03,781 __init__ -- END Twilio API Request --
+INFO 2025-05-09 15:20:04,211 __init__ Response Status Code: 400
+INFO 2025-05-09 15:20:04,212 __init__ Response Headers: {'Content-Type': 'application/json', 'Content-Length': '130', 'Connection': 'keep-alive', 'Date': 'Fri, 09 May 2025 13:20:04 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '21211', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ8e42bbc15f490df05f4e6306e806b2cd', 'Twilio-Request-Duration': '0.073', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 076035fd86761f80fa714250b13ccaa4.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MXP53-P6', 'X-Amz-Cf-Id': 'aBIAEUzMYZSAJdrm1Mq3KH_W6x-zBmpv_L2Fx25iAhxHwtToupKBCQ==', 'Vary': 'Origin'}
+INFO 2025-05-09 15:20:28,793 autoreload Watching for file changes with StatReloader
+INFO 2025-05-09 15:21:12,101 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-09 15:21:12,102 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-09 15:21:12,102 __init__ Headers:
+INFO 2025-05-09 15:21:12,102 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-09 15:21:12,103 __init__ Accept : application/json
+INFO 2025-05-09 15:21:12,103 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-09 15:21:12,103 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-09 15:21:12,103 __init__ Accept-Charset : utf-8
+INFO 2025-05-09 15:21:12,103 __init__ -- END Twilio API Request --
+INFO 2025-05-09 15:21:13,057 __init__ Response Status Code: 400
+INFO 2025-05-09 15:21:13,058 __init__ Response Headers: {'Content-Type': 'application/json', 'Content-Length': '130', 'Connection': 'keep-alive', 'Date': 'Fri, 09 May 2025 13:21:13 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '21211', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQb8612c09f1222fb53cefc6a5d0c6de8f', 'Twilio-Request-Duration': '0.073', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 38dcb619e78662b2e2722991e189a4e0.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MXP53-P6', 'X-Amz-Cf-Id': 'NwQOm4-dx4Qw3jZseSm1h1uCJS248lzZhQi6PrFvZo1348xCDxQ_cw==', 'Vary': 'Origin'}
+INFO 2025-05-09 15:21:55,317 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-09 15:21:55,318 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-09 15:21:55,318 __init__ Headers:
+INFO 2025-05-09 15:21:55,319 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-09 15:21:55,320 __init__ Accept : application/json
+INFO 2025-05-09 15:21:55,321 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-09 15:21:55,321 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-09 15:21:55,322 __init__ Accept-Charset : utf-8
+INFO 2025-05-09 15:21:55,322 __init__ -- END Twilio API Request --
+INFO 2025-05-09 15:21:56,176 __init__ Response Status Code: 400
+INFO 2025-05-09 15:21:56,176 __init__ Response Headers: {'Content-Type': 'application/json', 'Content-Length': '130', 'Connection': 'keep-alive', 'Date': 'Fri, 09 May 2025 13:21:56 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '21211', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQa564faf74d8d081a33eecc3dfd836c43', 'Twilio-Request-Duration': '0.074', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 d75ae4449c085f5bea1aa41995260040.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MXP53-P6', 'X-Amz-Cf-Id': 'mFJFJiRJ6URUiou2HDDNcvpg-f6Tl6EEuhSMydC0YG_DOoRPXYA4iA==', 'Vary': 'Origin'}
+INFO 2025-05-09 15:22:28,122 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-09 15:22:28,122 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-09 15:22:28,123 __init__ Headers:
+INFO 2025-05-09 15:22:28,123 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-09 15:22:28,123 __init__ Accept : application/json
+INFO 2025-05-09 15:22:28,123 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-09 15:22:28,123 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-09 15:22:28,123 __init__ Accept-Charset : utf-8
+INFO 2025-05-09 15:22:28,123 __init__ -- END Twilio API Request --
+INFO 2025-05-09 15:22:28,525 __init__ Response Status Code: 400
+INFO 2025-05-09 15:22:28,525 __init__ Response Headers: {'Content-Type': 'application/json', 'Content-Length': '130', 'Connection': 'keep-alive', 'Date': 'Fri, 09 May 2025 13:22:29 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '21211', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ9569b8a86c454ec89b6d4ab57fb33618', 'Twilio-Request-Duration': '0.054', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 cf3f0b86ea5f0564fa74acb00e1bb9ea.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MXP53-P6', 'X-Amz-Cf-Id': 'F58diQPdlZPcvf0BRu6xTyaDDH-WJWV1bg_GxwOaG4v4KwSUxJWWDw==', 'Vary': 'Origin'}
+INFO 2025-05-09 15:28:32,680 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-09 15:28:32,681 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-09 15:28:32,681 __init__ Headers:
+INFO 2025-05-09 15:28:32,681 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-09 15:28:32,682 __init__ Accept : application/json
+INFO 2025-05-09 15:28:32,682 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-09 15:28:32,683 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-09 15:28:32,683 __init__ Accept-Charset : utf-8
+INFO 2025-05-09 15:28:32,684 __init__ -- END Twilio API Request --
+INFO 2025-05-09 15:28:33,088 __init__ Response Status Code: 400
+INFO 2025-05-09 15:28:33,088 __init__ Response Headers: {'Content-Type': 'application/json', 'Content-Length': '130', 'Connection': 'keep-alive', 'Date': 'Fri, 09 May 2025 13:28:33 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '21211', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQc9dda0d1a823395ea7bcce09252d205d', 'Twilio-Request-Duration': '0.069', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 2eb65a7c5b78b5f075af3c4aee8f8202.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MXP53-P6', 'X-Amz-Cf-Id': '4mxGmJk1Ua7oEHHJ05poE7Z5K4puyZhTDma9cDd-JcVnHGz9TaUK-A==', 'Vary': 'Origin'}
+WARNING 2025-05-09 15:35:32,302 log Not Found: /agents/supprimer/3/
+WARNING 2025-05-09 15:35:33,636 log Not Found: /agents/supprimer/3/
+INFO 2025-05-09 15:35:42,591 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-09 15:35:42,592 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-09 15:35:42,592 __init__ Headers:
+INFO 2025-05-09 15:35:42,592 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-09 15:35:42,593 __init__ Accept : application/json
+INFO 2025-05-09 15:35:42,594 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-09 15:35:42,594 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-09 15:35:42,596 __init__ Accept-Charset : utf-8
+INFO 2025-05-09 15:35:42,599 __init__ -- END Twilio API Request --
+INFO 2025-05-09 15:35:42,979 __init__ Response Status Code: 400
+INFO 2025-05-09 15:35:42,980 __init__ Response Headers: {'Content-Type': 'application/json', 'Content-Length': '330', 'Connection': 'keep-alive', 'Date': 'Fri, 09 May 2025 13:35:43 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '21608', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ1754cb983865dd2d81316fb5c6e86ea9', 'Twilio-Request-Duration': '0.098', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 96896a84a34b54d7e563114b261ab144.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MXP53-P6', 'X-Amz-Cf-Id': 'qqI3-omncJYXl2oAtXwbDE7D8A3MxPlFwe_ZpdaxwDQ6sk7ZI-KiwA==', 'Vary': 'Origin'}
+INFO 2025-05-09 16:46:09,794 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-09 16:46:15,982 log Not Found: /favicon.ico
+INFO 2025-05-09 21:52:24,373 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-09 21:52:37,498 log Not Found: /favicon.ico
+INFO 2025-05-09 21:54:19,269 utils Email d'alerte envoyé à youssefsk.chkir@gmail.com (Alerte ID: 5)
+INFO 2025-05-10 13:20:03,154 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-10 13:20:21,121 log Not Found: /favicon.ico
+INFO 2025-05-10 13:20:37,108 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-10 13:20:37,109 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-10 13:20:37,109 __init__ Headers:
+INFO 2025-05-10 13:20:37,109 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-10 13:20:37,110 __init__ Accept : application/json
+INFO 2025-05-10 13:20:37,110 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-10 13:20:37,110 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-10 13:20:37,110 __init__ Accept-Charset : utf-8
+INFO 2025-05-10 13:20:37,110 __init__ -- END Twilio API Request --
+INFO 2025-05-10 13:20:37,493 __init__ Response Status Code: 400
+INFO 2025-05-10 13:20:37,495 __init__ Response Headers: {'Content-Type': 'application/json', 'Content-Length': '330', 'Connection': 'keep-alive', 'Date': 'Sat, 10 May 2025 11:20:38 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '21608', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQe3af5b4ec318a6a98fcffb996f9de78b', 'Twilio-Request-Duration': '0.110', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 e3ba699ce493c1b907b2e3ba29f76d66.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MXP53-P6', 'X-Amz-Cf-Id': 'OFdNsvnr7VhXMtjXqojgdLMEdYvX0mM3uUDCOnW0c_4vHsUoXIn4-Q==', 'Vary': 'Origin'}
+INFO 2025-05-10 13:30:25,090 autoreload Watching for file changes with StatReloader
+INFO 2025-05-10 13:32:41,462 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-10 13:32:41,463 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-10 13:32:41,463 __init__ Headers:
+INFO 2025-05-10 13:32:41,463 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-10 13:32:41,463 __init__ Accept : application/json
+INFO 2025-05-10 13:32:41,464 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-10 13:32:41,464 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-10 13:32:41,464 __init__ Accept-Charset : utf-8
+INFO 2025-05-10 13:32:41,464 __init__ -- END Twilio API Request --
+INFO 2025-05-10 13:32:41,802 __init__ Response Status Code: 400
+INFO 2025-05-10 13:32:41,803 __init__ Response Headers: {'Content-Type': 'application/json', 'Content-Length': '130', 'Connection': 'keep-alive', 'Date': 'Sat, 10 May 2025 11:32:42 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '21211', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ2c4e4c29ec174fde7c91724368b63e63', 'Twilio-Request-Duration': '0.073', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 96896a84a34b54d7e563114b261ab144.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MXP53-P6', 'X-Amz-Cf-Id': 't-bzbi0-Q-0MQmf1HslZOqYE_NJ_tRLENkkJCmA6ZExOR-X58MPzhg==', 'Vary': 'Origin'}
+INFO 2025-05-10 13:34:01,044 autoreload Watching for file changes with StatReloader
+INFO 2025-05-10 13:37:46,718 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-10 13:37:46,718 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-10 13:37:46,718 __init__ Headers:
+INFO 2025-05-10 13:37:46,718 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-10 13:37:46,719 __init__ Accept : application/json
+INFO 2025-05-10 13:37:46,719 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-10 13:37:46,719 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-10 13:37:46,719 __init__ Accept-Charset : utf-8
+INFO 2025-05-10 13:37:46,719 __init__ -- END Twilio API Request --
+INFO 2025-05-10 13:37:47,150 __init__ Response Status Code: 201
+INFO 2025-05-10 13:37:47,152 __init__ Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '836', 'Connection': 'keep-alive', 'Date': 'Sat, 10 May 2025 11:37:47 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ032fa706dd296b166d7838cd256b7d8b', 'Twilio-Request-Duration': '0.164', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 f859d884343143b5336c769cb249a0d4.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MXP53-P6', 'X-Amz-Cf-Id': 'JqWznNVjFYazWSrFBQuNhFqPuUyhiWWVdKo67j8H6hk8gPdu74qBYA==', 'Vary': 'Origin'}
+INFO 2025-05-10 13:39:09,651 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-10 13:39:09,652 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-10 13:39:09,652 __init__ Headers:
+INFO 2025-05-10 13:39:09,653 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-10 13:39:09,653 __init__ Accept : application/json
+INFO 2025-05-10 13:39:09,654 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-10 13:39:09,655 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-10 13:39:09,658 __init__ Accept-Charset : utf-8
+INFO 2025-05-10 13:39:09,659 __init__ -- END Twilio API Request --
+INFO 2025-05-10 13:39:10,069 __init__ Response Status Code: 201
+INFO 2025-05-10 13:39:10,070 __init__ Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '836', 'Connection': 'keep-alive', 'Date': 'Sat, 10 May 2025 11:39:10 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ29fe5e4a5fc93fb9973535f8a5527b3b', 'Twilio-Request-Duration': '0.142', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 57753c1a50499e451ab37c7e7fc5c476.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MXP53-P6', 'X-Amz-Cf-Id': 'vlFyxUU4ZbCGK8usOmPWG9Twy61tIpKqjVxjtkNXiYoML5IfuSAQ2Q==', 'Vary': 'Origin'}
+INFO 2025-05-10 19:12:13,497 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-10 19:12:27,718 log Not Found: /favicon.ico
+INFO 2025-05-10 20:14:25,968 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-10 20:14:49,331 log Internal Server Error: /detection/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 244, in detection_temps_reel
+    return redirect('consentement_form')
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'consentement_form' not found. 'consentement_form' is not a valid view function or pattern name.
+WARNING 2025-05-10 20:15:04,086 log Method Not Allowed: /enregistrer-consentement/
+ERROR 2025-05-10 20:15:23,850 log Internal Server Error: /detection/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 244, in detection_temps_reel
+    return redirect('consentement_form')
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'consentement_form' not found. 'consentement_form' is not a valid view function or pattern name.
+INFO 2025-05-10 20:28:43,816 autoreload Watching for file changes with StatReloader
+INFO 2025-05-10 20:29:53,468 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-10 20:30:42,301 log Method Not Allowed: /enregistrer-consentement/
+WARNING 2025-05-10 20:31:06,368 log Method Not Allowed: /enregistrer-consentement/
+INFO 2025-05-10 20:31:53,931 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-10 20:32:12,206 log Method Not Allowed: /enregistrer-consentement/
+INFO 2025-05-10 20:39:59,505 autoreload Watching for file changes with StatReloader
+INFO 2025-05-10 20:45:52,423 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-10 20:46:12,861 log Internal Server Error: /consentement/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 52, in consentement_form
+    return render(request, 'securite/consentement_form.html')
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'biometrie_info' not found. 'biometrie_info' is not a valid view function or pattern name.
+INFO 2025-05-10 20:47:23,944 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-10 20:47:31,263 log Internal Server Error: /consentement/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 52, in consentement_form
+    return render(request, 'securite/consentement_form.html')
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'biometrie_info' not found. 'biometrie_info' is not a valid view function or pattern name.
+WARNING 2025-05-10 20:47:37,140 log Method Not Allowed: /enregistrer-consentement/
+INFO 2025-05-10 20:53:19,441 autoreload Watching for file changes with StatReloader
+INFO 2025-05-10 20:55:49,838 autoreload Watching for file changes with StatReloader
+INFO 2025-05-10 21:59:43,470 autoreload Watching for file changes with StatReloader
+INFO 2025-05-10 21:59:57,860 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-10 22:00:10,288 log Internal Server Error: /detection/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 332, in detection_temps_reel
+    envoyer_alertes_intrus(alerte, image_path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 251, in envoyer_alertes_intrus
+    image_url = f"{settings.BASE_URL}/media/{image_path}?token={token}"
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\conf\__init__.py", line 83, in __getattr__
+    val = getattr(_wrapped, name)
+AttributeError: 'Settings' object has no attribute 'BASE_URL'. Did you mean: 'BASE_DIR'?
+ERROR 2025-05-10 22:00:17,427 log Internal Server Error: /detection/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 332, in detection_temps_reel
+    envoyer_alertes_intrus(alerte, image_path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 251, in envoyer_alertes_intrus
+    image_url = f"{settings.BASE_URL}/media/{image_path}?token={token}"
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\conf\__init__.py", line 83, in __getattr__
+    val = getattr(_wrapped, name)
+AttributeError: 'Settings' object has no attribute 'BASE_URL'. Did you mean: 'BASE_DIR'?
+INFO 2025-05-10 22:01:32,360 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-10 22:01:42,747 log Internal Server Error: /detection/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 332, in detection_temps_reel
+    envoyer_alertes_intrus(alerte, image_path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 251, in envoyer_alertes_intrus
+    image_url = f"{settings.BASE_URL}/media/{image_path}?token={token}"
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\conf\__init__.py", line 83, in __getattr__
+    val = getattr(_wrapped, name)
+AttributeError: 'Settings' object has no attribute 'BASE_URL'. Did you mean: 'BASE_DIR'?
+INFO 2025-05-10 22:38:08,809 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-10 22:38:32,073 log Internal Server Error: /detection/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 313, in detection_temps_reel
+    envoyer_alertes_intrus(alerte, image_path, request)
+                           ^^^^^^
+UnboundLocalError: cannot access local variable 'alerte' where it is not associated with a value
+ERROR 2025-05-10 22:38:50,602 log Internal Server Error: /detection/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 313, in detection_temps_reel
+    envoyer_alertes_intrus(alerte, image_path, request)
+                           ^^^^^^
+UnboundLocalError: cannot access local variable 'alerte' where it is not associated with a value
+INFO 2025-05-10 23:18:27,906 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-10 23:18:39,096 log Internal Server Error: /detection/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 313, in detection_temps_reel
+    envoyer_alertes_intrus(alerte, image_path, request)
+                           ^^^^^^
+UnboundLocalError: cannot access local variable 'alerte' where it is not associated with a value
+INFO 2025-05-10 23:34:06,535 autoreload Watching for file changes with StatReloader
+INFO 2025-05-10 23:58:51,893 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 00:22:28,606 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 00:30:53,172 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 00:40:08,674 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 00:40:29,231 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-11 00:40:29,231 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-11 00:40:29,232 __init__ Headers:
+INFO 2025-05-11 00:40:29,232 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-11 00:40:29,233 __init__ Accept : application/json
+INFO 2025-05-11 00:40:29,233 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-11 00:40:29,234 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-11 00:40:29,234 __init__ Accept-Charset : utf-8
+INFO 2025-05-11 00:40:29,235 __init__ -- END Twilio API Request --
+INFO 2025-05-11 00:40:30,624 __init__ Response Status Code: 201
+INFO 2025-05-11 00:40:30,626 __init__ Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '847', 'Connection': 'keep-alive', 'Date': 'Sat, 10 May 2025 22:40:30 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ98fbccaa27e3cc938de12f1dd6011852', 'Twilio-Request-Duration': '0.168', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 815fe6bb4ddd1966ea07df0584a17b06.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MXP53-P6', 'X-Amz-Cf-Id': 'WYmqMfjPAKGKgrVpdCRu7Cjh2GJBMpxIhEK6zXyiUTU3QPJoLRIkxA==', 'Vary': 'Origin'}
+INFO 2025-05-11 11:21:36,156 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-11 11:21:48,573 log Not Found: /favicon.ico
+ERROR 2025-05-11 11:22:01,027 log Internal Server Error: /detection/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 355, in detection_temps_reel
+    envoyer_alertes(alerte)
+    ~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 324, in envoyer_alertes
+    send_mail(
+    ~~~~~~~~~^
+        sujet,
+        ^^^^^^
+    ...<3 lines>...
+        fail_silently=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\mail\__init__.py", line 92, in send_mail
+    return mail.send()
+           ~~~~~~~~~^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\mail\message.py", line 307, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\mail\backends\smtp.py", line 128, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\mail\backends\smtp.py", line 86, in open
+    self.connection = self.connection_class(
+                      ~~~~~~~~~~~~~~~~~~~~~^
+        self.host, self.port, **connection_params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                                    self.source_address)
+                                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\socket.py", line 840, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11004] getaddrinfo failed
+INFO 2025-05-11 11:23:20,527 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 11:23:42,160 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-11 11:23:42,160 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-11 11:23:42,161 __init__ Headers:
+INFO 2025-05-11 11:23:42,161 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-11 11:23:42,162 __init__ Accept : application/json
+INFO 2025-05-11 11:23:42,162 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-11 11:23:42,163 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-11 11:23:42,163 __init__ Accept-Charset : utf-8
+INFO 2025-05-11 11:23:42,164 __init__ -- END Twilio API Request --
+INFO 2025-05-11 11:23:44,660 __init__ Response Status Code: 201
+INFO 2025-05-11 11:23:44,660 __init__ Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '847', 'Connection': 'keep-alive', 'Date': 'Sun, 11 May 2025 09:23:44 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQa737cfe34ee23e92d1cb4aa59c5eddb4', 'Twilio-Request-Duration': '0.165', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 1d51063b8fd055d6c4f28fa80953f460.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MXP53-P6', 'X-Amz-Cf-Id': '9QBiXQY0eolVYXBXrIer10Ml9Ej1reJ-7jR2zO3Mo2v8vROy9mZ-6w==', 'Vary': 'Origin'}
+INFO 2025-05-11 11:28:25,952 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 11:42:11,783 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 12:04:06,135 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 12:05:03,119 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-11 12:05:03,120 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-11 12:05:03,120 __init__ Headers:
+INFO 2025-05-11 12:05:03,120 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-11 12:05:03,120 __init__ Accept : application/json
+INFO 2025-05-11 12:05:03,120 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-11 12:05:03,121 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-11 12:05:03,121 __init__ Accept-Charset : utf-8
+INFO 2025-05-11 12:05:03,121 __init__ -- END Twilio API Request --
+INFO 2025-05-11 12:05:03,826 __init__ Response Status Code: 201
+INFO 2025-05-11 12:05:03,827 __init__ Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '847', 'Connection': 'keep-alive', 'Date': 'Sun, 11 May 2025 10:05:03 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQd3448e3121e7d748449cf500e3cbdc2c', 'Twilio-Request-Duration': '0.142', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 57753c1a50499e451ab37c7e7fc5c476.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MXP53-P6', 'X-Amz-Cf-Id': 'FaKROFpdU82Ql95uX6juzu93SvXai8xnE_EKSI7rv_x2IVbP_tgHRw==', 'Vary': 'Origin'}
+INFO 2025-05-11 12:35:18,294 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 12:37:09,203 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-11 12:37:09,204 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-11 12:37:09,204 __init__ Headers:
+INFO 2025-05-11 12:37:09,204 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-11 12:37:09,204 __init__ Accept : application/json
+INFO 2025-05-11 12:37:09,205 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-11 12:37:09,205 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-11 12:37:09,205 __init__ Accept-Charset : utf-8
+INFO 2025-05-11 12:37:09,205 __init__ -- END Twilio API Request --
+INFO 2025-05-11 12:37:09,901 __init__ Response Status Code: 201
+INFO 2025-05-11 12:37:09,902 __init__ Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '847', 'Connection': 'keep-alive', 'Date': 'Sun, 11 May 2025 10:37:09 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQcc3e1737c729139c9f0407275d56ec44', 'Twilio-Request-Duration': '0.145', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 96896a84a34b54d7e563114b261ab144.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MXP53-P6', 'X-Amz-Cf-Id': 'FGmz2Tm70J4uIAvSHUYtXnu-nV_TfwW90y2xjRxiuH9moZyrImzD_Q==', 'Vary': 'Origin'}
+INFO 2025-05-11 13:28:29,652 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-11 13:28:42,207 log Internal Server Error: /dashboard/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 128, in dashboard
+    return render(request, 'securite/dashboard.html', context)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'agent_list' not found. 'agent_list' is not a valid view function or pattern name.
+ERROR 2025-05-11 13:29:03,887 log Internal Server Error: /dashboard/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 128, in dashboard
+    return render(request, 'securite/dashboard.html', context)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'agent_list' not found. 'agent_list' is not a valid view function or pattern name.
+ERROR 2025-05-11 13:29:05,243 log Internal Server Error: /dashboard/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 128, in dashboard
+    return render(request, 'securite/dashboard.html', context)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'agent_list' not found. 'agent_list' is not a valid view function or pattern name.
+ERROR 2025-05-11 13:29:10,370 log Internal Server Error: /dashboard/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 128, in dashboard
+    return render(request, 'securite/dashboard.html', context)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'agent_list' not found. 'agent_list' is not a valid view function or pattern name.
+INFO 2025-05-11 13:29:22,451 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 14:41:18,903 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-11 14:41:31,710 log Not Found: /favicon.ico
+WARNING 2025-05-11 14:41:48,224 log Not Found: /api/alertes/24/rgpd/
+WARNING 2025-05-11 14:41:50,028 log Not Found: /api/alertes/25/rgpd/
+INFO 2025-05-11 14:44:07,809 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 14:44:38,864 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 14:45:12,877 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 14:46:11,671 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-11 14:46:19,377 log Internal Server Error: /alertes-json/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 293, in get_alertes
+    "image_url": a.image.url if a.image else None,
+                                ^^^^^^^
+AttributeError: 'AlerteAcces' object has no attribute 'image'
+ERROR 2025-05-11 14:46:22,431 log Internal Server Error: /alertes-json/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 293, in get_alertes
+    "image_url": a.image.url if a.image else None,
+                                ^^^^^^^
+AttributeError: 'AlerteAcces' object has no attribute 'image'
+INFO 2025-05-11 14:47:07,492 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 14:47:36,278 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 14:49:05,705 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 16:02:17,364 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 16:10:45,687 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 16:33:45,017 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 16:51:40,026 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-11 16:51:51,327 log Internal Server Error: /gerer-alerte/25/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 143, in gerer_alerte
+    return redirect('dashboard_unifie')  # Redirection vers le nouveau dashboard
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard_unifie' not found. 'dashboard_unifie' is not a valid view function or pattern name.
+ERROR 2025-05-11 16:52:32,904 log Internal Server Error: /gerer-alerte/25/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 143, in gerer_alerte
+    return redirect('dashboard_unifie')  # Redirection vers le nouveau dashboard
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard_unifie' not found. 'dashboard_unifie' is not a valid view function or pattern name.
+INFO 2025-05-11 16:53:42,949 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-11 16:53:52,823 log Internal Server Error: /gerer-alerte/25/
+Traceback (most recent call last):
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\views.py", line 143, in gerer_alerte
+    return redirect('dashboard_unifie')  # Redirection vers le nouveau dashboard
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\deepface_env\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboard_unifie' not found. 'dashboard_unifie' is not a valid view function or pattern name.
+INFO 2025-05-11 16:54:44,630 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 17:08:51,302 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 17:09:56,932 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 17:28:13,445 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 17:45:58,087 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 17:46:11,467 utils Email d'alerte envoyé à youssefsk.chkir@gmail.com (Alerte ID: 25)
+INFO 2025-05-11 17:46:28,515 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-11 17:46:28,516 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-11 17:46:28,516 __init__ Headers:
+INFO 2025-05-11 17:46:28,516 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-11 17:46:28,516 __init__ Accept : application/json
+INFO 2025-05-11 17:46:28,516 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-11 17:46:28,516 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-11 17:46:28,517 __init__ Accept-Charset : utf-8
+INFO 2025-05-11 17:46:28,517 __init__ -- END Twilio API Request --
+INFO 2025-05-11 17:46:29,162 __init__ Response Status Code: 201
+INFO 2025-05-11 17:46:29,162 __init__ Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '824', 'Connection': 'keep-alive', 'Date': 'Sun, 11 May 2025 15:46:28 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ80aa3838338de0632bb854ec2c91182b', 'Twilio-Request-Duration': '0.154', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 772d631d14f4133250caeaf0a6aa579a.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MXP53-P6', 'X-Amz-Cf-Id': 'eyX3Kdyt6VUwJpJpu-Utky-y0_ll4kIpzvhR7LfqrdMY-OcY2VMQew==', 'Vary': 'Origin'}
+INFO 2025-05-11 17:46:41,516 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 17:47:39,367 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-11 17:47:39,367 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-11 17:47:39,367 __init__ Headers:
+INFO 2025-05-11 17:47:39,368 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-11 17:47:39,368 __init__ Accept : application/json
+INFO 2025-05-11 17:47:39,368 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-11 17:47:39,368 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-11 17:47:39,368 __init__ Accept-Charset : utf-8
+INFO 2025-05-11 17:47:39,369 __init__ -- END Twilio API Request --
+INFO 2025-05-11 17:47:41,558 __init__ Response Status Code: 201
+INFO 2025-05-11 17:47:41,561 __init__ Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '847', 'Connection': 'keep-alive', 'Date': 'Sun, 11 May 2025 15:47:41 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ40644095363054b3ebaae00006a5c076', 'Twilio-Request-Duration': '0.127', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 cd5b12d4f8d1b7b93983071257abfd4e.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MXP53-P6', 'X-Amz-Cf-Id': 'FHVn8nKcCdfqCS1q23O73wo3kVvYhbOk18c5s1mSb4Pqo8C46TDtbA==', 'Vary': 'Origin'}
+INFO 2025-05-12 13:09:15,466 autoreload Watching for file changes with StatReloader
+INFO 2025-05-12 13:09:40,060 autoreload Watching for file changes with StatReloader
+INFO 2025-05-12 13:10:02,025 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-12 13:10:17,430 log Not Found: /favicon.ico
+INFO 2025-05-12 13:11:18,633 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-12 13:11:18,634 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-12 13:11:18,635 __init__ Headers:
+INFO 2025-05-12 13:11:18,636 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-12 13:11:18,636 __init__ Accept : application/json
+INFO 2025-05-12 13:11:18,636 __init__ User-Agent : twilio-python/9.5.1 (Windows AMD64) Python/3.13.2
+INFO 2025-05-12 13:11:18,637 __init__ X-Twilio-Client : python-9.5.1
+INFO 2025-05-12 13:11:18,637 __init__ Accept-Charset : utf-8
+INFO 2025-05-12 13:11:18,637 __init__ -- END Twilio API Request --
+INFO 2025-05-12 13:11:19,138 __init__ Response Status Code: 201
+INFO 2025-05-12 13:11:19,139 __init__ Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '847', 'Connection': 'keep-alive', 'Date': 'Mon, 12 May 2025 11:11:17 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ6442abd6d5970b8ea72f1ac423cfffb7', 'Twilio-Request-Duration': '0.169', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 e70cbe3d9840556c30e1c93cd33e1702.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MXP53-P6', 'X-Amz-Cf-Id': 'JyRvDw19CH7BICUPROofYrXtQP6V2C64XlPq0gzGZOMOcH3GYm29sA==', 'Vary': 'Origin'}
+INFO 2025-05-12 13:11:39,301 utils Email d'alerte envoyé à youssefsk.chkir@gmail.com (Alerte ID: 27)
+INFO 2025-05-12 13:14:26,275 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-12 13:14:38,571 log Not Found: /favicon.ico

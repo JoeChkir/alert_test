@@ -1,0 +1,12 @@
+{% extends "securite/base_admin.html" %}
+
+{% block content %}
+<div class="container">
+    <h2>Créer un nouvel agent</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn primary">Enregistrer</button>
+    </form>
+</div>
+{% endblock %}
