@@ -126,7 +126,7 @@ def send_sms_alert(message, image_url=None):
         print("Aucun agent avec numéro valide configuré pour recevoir des SMS")
         return False
 
-    client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
+    #client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
     
     for agent in agents:
         try:
@@ -139,7 +139,7 @@ def send_sms_alert(message, image_url=None):
             # Envoi du SMS
             client.messages.create(
                 body=full_message,
-                from_=TWILIO_PHONE,
+                #from_=TWILIO_PHONE,
                 to=agent.telephone  # <-- Utilisez agent.telephone au lieu de agent.phone
             )
             print(f"📱 SMS envoyé avec succès à {agent.telephone}")
