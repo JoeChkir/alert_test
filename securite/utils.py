@@ -39,6 +39,10 @@ SMTP_USERNAME = getattr(settings, "EMAIL_HOST_USER", "")
 SMTP_PASSWORD = getattr(settings, "EMAIL_HOST_PASSWORD", "")
 EMAIL_FROM = getattr(settings, "DEFAULT_FROM_EMAIL", "security@example.com")
 
+TWILIO_SID = getattr(settings, "TWILIO_ACCOUNT_SID", "SID")
+TWILIO_AUTH_TOKEN = getattr(settings, "TWILIO_AUTH_TOKEN", "TOKEN")
+TWILIO_PHONE = getattr(settings, "TWILIO_PHONE_NUMBER", "NUMBER")
+
 
 
 def shorten_url(long_url):
@@ -120,7 +124,7 @@ def send_sms_alert(message, image_url=None):
         print("Aucun agent avec numéro valide configuré pour recevoir des SMS")
         return False
 
-    client = Client(SID, TOKEN)
+    client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
     
     for agent in agents:
         try:
