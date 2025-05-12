@@ -26,7 +26,8 @@ class AlerteAcces(models.Model):
         ('pending', 'En attente de traitement'),
         ('expire', 'Données expirées'),
     ]
-    
+    details = models.TextField(blank=True)
+
     # Identifiants
     nom = models.CharField(
         max_length=100, 
@@ -55,8 +56,7 @@ class AlerteAcces(models.Model):
     vecteur_visage = models.BinaryField(
         null=True,
         blank=True,
-        verbose_name="Empreinte biométrique sécurisée",
-        help_text="Vecteur flouté et réduit (32x32px)"
+        verbose_name="Empreinte biométrique sécurisée"
     )
     
     metadata = models.JSONField(
@@ -64,7 +64,7 @@ class AlerteAcces(models.Model):
         verbose_name="Métadonnées techniques",
         help_text="Données contextuelles non-identifiantes"
     )
-    
+    date_creation = models.DateTimeField(auto_now_add=True) 
     # Gestion RGPD
     date_expiration = models.DateTimeField(
         default=default_expiration_date,
@@ -98,7 +98,7 @@ class AlerteAcces(models.Model):
     class Meta:
         verbose_name = "Alerte sécurisée"
         verbose_name_plural = "Alertes sécurisées"
-        ordering = ['-date']
+        ordering = ['-date_creation']
         indexes = [
             models.Index(fields=['date']),
             models.Index(fields=['statut']),

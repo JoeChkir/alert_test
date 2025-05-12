@@ -5,6 +5,8 @@ from django.utils import timezone
 from .models import PersonneAutorisee, AlerteAcces
 import os
 import logging  # Importez le module logging directement
+import io
+
 
 # Créez un logger spécifique pour ce module
 logger = logging.getLogger(__name__)
@@ -56,23 +58,21 @@ def purger_donnees():
 import cv2
 import numpy as np
 
-def image_to_secure_vector(image_path):
-    """Version robuste de la conversion d'image"""
-    try:
-        img = cv2.imread(image_path)
-        if img is None:
-            raise ValueError("Impossible de lire l'image capturée")
-            
-        # Floutage important
-        img = cv2.GaussianBlur(img, (99, 99), 30)
-        
-        # Réduction drastique de la résolution
-        img = cv2.resize(img, (32, 32))
-        
-        # Conversion en vecteur
-        vector = img.flatten() / 255.0
-        
-        return vector.tobytes()
-    except Exception as e:
-        logger.error(f"Erreur conversion image: {str(e)}")
-        raise
+def image_to_secure_vector(image):
+    """Convertit une image OpenCV en vecteur sécurisé"""
+    if isinstance(image, str):  # Si c'est un chemin d'accès
+        img = cv2.imread(image)
+    else:  # Si c'est déjà un array numpy
+        img = image
+    
+    if img is None:
+        return None
+    
+    # Réduction et conversion en niveaux de gris
+    img = cv2.resize(img, (64, 64))
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    
+    # Normalisation
+    vector = (img.flatten() / 255.0).astype(np.float32)
+    
+    return vector.tobytes()

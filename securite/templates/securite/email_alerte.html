@@ -1,10 +1,23 @@
-<h2>Alerte intrus. Confiance: {{ alerte.confiance }}%</h2>
-
-<p>Détails techniques :</p>
-<ul>
-    <li>ID Alerte : {{ alerte.id }}</li>
-    <li>Image temporaire : <a href="{{ image_url }}">Voir l'image (expire dans 30 min)</a></li>
-    <li>Confidentialité : Données RGPD-compatibles (floutage + vectorisation)</li>
-</ul>
-
-<p>Horodatage : {{ alerte.date|date:"d/m/Y H:i" }}</p>
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>🚨 Alerte Intrusion</h2>
+    <p>Une intrusion a été détectée le {{ alerte.date|date:"d/m/Y H:i" }}</p>
+    
+    {% if image_url %}
+    <p>
+        <a href="{{ image_url }}">Voir la capture</a><br>
+        <small>Lien valide 24h - Données RGPD-compatibles</small>
+    </p>
+    {% endif %}
+    
+    <p>
+        <strong>Actions recommandées :</strong>
+        <ol>
+            <li>Vérifier les accès physiques</li>
+            <li>Contacter le service de sécurité</li>
+            <li>Consulter les journaux système</li>
+        </ol>
+    </p>
+</body>
+</html>

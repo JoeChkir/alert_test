@@ -18,6 +18,10 @@ from PIL import Image
 import shutil
 import logging
 from email.mime.application import MIMEApplication
+from .gdpr_utils import image_to_secure_vector
+import shortuuid
+from datetime import timedelta, time
+import time
 
 logger = logging.getLogger(__name__)
 
@@ -39,9 +43,9 @@ SMTP_USERNAME = getattr(settings, "EMAIL_HOST_USER", "")
 SMTP_PASSWORD = getattr(settings, "EMAIL_HOST_PASSWORD", "")
 EMAIL_FROM = getattr(settings, "DEFAULT_FROM_EMAIL", "security@example.com")
 
-TWILIO_SID = getattr(settings, "TWILIO_ACCOUNT_SID", "SID")
-TWILIO_AUTH_TOKEN = getattr(settings, "TWILIO_AUTH_TOKEN", "TOKEN")
-TWILIO_PHONE = getattr(settings, "TWILIO_PHONE_NUMBER", "NUMBER")
+TWILIO_SID = getattr(settings, "TWILIO_ACCOUNT_SID", "")
+TWILIO_AUTH_TOKEN = getattr(settings, "TWILIO_AUTH_TOKEN", "")
+TWILIO_PHONE = getattr(settings, "TWILIO_PHONE_NUMBER", "+")
 
 
 
@@ -114,39 +118,38 @@ def send_email_alert(subject, message, vector_data=None, alert_id=None):
 
 
 
-def send_sms_alert(message, image_url=None):
-    """
-    Envoie une alerte SMS à tous les agents qui acceptent les SMS
-    """
-    agents = Agent.objects.filter(recoit_sms=True).exclude(telephone__isnull=True).exclude(telephone__exact='')
-    #                                 ^^^^^^^^^^ Utilisez le nom correct du champ
-    if not agents.exists():
-        print("Aucun agent avec numéro valide configuré pour recevoir des SMS")
-        return False
+def send_sms_alert(message):
+    try:
+        # Vérification de la configuration
+        if not all([settings.TWILIO_ACCOUNT_SID, 
+                   settings.TWILIO_AUTH_TOKEN, 
+                   settings.TWILIO_PHONE_NUMBER]):
+            logger.error("Configuration Twilio incomplète")
+            return False
 
-    client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
-    
-    for agent in agents:
-        try:
-            # Préparation du message
-            full_message = message
-            if image_url:
-                short_url = shorten_url(image_url)
-                full_message = f"{message}\n📷 Image : {short_url}"
-
-            # Envoi du SMS
+        client = Client(settings.TWILIO_ACCOUNT_SID, settings.TWILIO_AUTH_TOKEN)
+        
+        for agent in Agent.objects.filter(recoit_sms=True):
+            if not agent.telephone:
+                continue
+                
+            # Formatage international du numéro
+            phone_number = agent.telephone
+            if not phone_number.startswith('+'):
+                phone_number = f'+216{phone_number.lstrip("0")}'  # Format Tunisie
+                
             client.messages.create(
-                body=full_message,
-                #from_=TWILIO_PHONE,
-                to=agent.telephone  # <-- Utilisez agent.telephone au lieu de agent.phone
+                body=message,
+                from_=settings.TWILIO_PHONE_NUMBER,  # Numéro Twilio vérifié
+                to=phone_number  # Numéro de destination formaté
             )
-            print(f"📱 SMS envoyé avec succès à {agent.telephone}")
+            logger.info(f"SMS envoyé à {phone_number}")
             
-        except Exception as e:
-            print(f"❌ Erreur d'envoi de SMS à {agent.telephone} : {e}")
-            continue
-    
-    return True
+        return True
+        
+    except Exception as e:
+        logger.error(f"Erreur envoi SMS: {str(e)}")
+        return False
 
 
 """"        
@@ -169,51 +172,101 @@ def envoyer_sms(ip, tentative):
         to='+numero'    # Le numéro du destinataire (admin ou autre)
     )
 """
-def capturer_intrus(nom_fichier='intrus.jpg'):
-    """Capture une image depuis la webcam"""
-    camera = cv2.VideoCapture(0)
-    return_value, image = camera.read()
-    cv2.imwrite(f'media/intrus/{nom_fichier}', image)
-    camera.release()
-    return f'intrus/{nom_fichier}'
+def capture_ecran(nom_fichier='capture_ecran.jpg'):
+    """Capture l'écran comme solution de secours"""
+    try:
+        import pyautogui
+        from PIL import Image
+        
+        # Vérification du chemin
+        chemin_complet = os.path.join(settings.MEDIA_ROOT, 'intrus', nom_fichier)
+        os.makedirs(os.path.dirname(chemin_complet), exist_ok=True)
+        
+        # Capture d'écran
+        screenshot = pyautogui.screenshot()
+        
+        # Conversion pour OpenCV si nécessaire
+        screenshot_cv = cv2.cvtColor(np.array(screenshot), cv2.COLOR_RGB2BGR)
+        
+        # Sauvegarde
+        cv2.imwrite(chemin_complet, screenshot_cv)
+        return f'intrus/{nom_fichier}'
+        
+    except Exception as e:
+        logger.error(f"Erreur capture écran: {str(e)}")
+        # Solution ultime - image par défaut
+        default_img_path = os.path.join(settings.MEDIA_ROOT, 'intrus', 'default.jpg')
+        if os.path.exists(default_img_path):
+            return 'intrus/default.jpg'
+        raise RuntimeError("Échec de la capture d'écran et image par défaut manquante")
+def capturer_intrus(nom_fichier=None):
+    """Capture une image depuis la webcam et retourne le chemin"""
+    if nom_fichier is None:
+        nom_fichier = f'intrus_{timezone.now().strftime("%Y%m%d_%H%M%S")}.jpg'
+    
+    chemin_complet = os.path.join(settings.MEDIA_ROOT, 'intrus', nom_fichier)
+    os.makedirs(os.path.dirname(chemin_complet), exist_ok=True)
 
-def capture_ecran(nom_fichier='intrus.jpg'):
-    """Capture l'écran"""
-    screenshot = pyautogui.screenshot()
-    screenshot.save(f'media/intrus/{nom_fichier}')
-    return f'intrus/{nom_fichier}'
+    try:
+        camera = cv2.VideoCapture(0)
+        if not camera.isOpened():
+            raise RuntimeError("Impossible d'accéder à la caméra")
+        
+        # Attendre que la caméra s'initialise
+        time.sleep(2)
+        
+        # Capturer l'image
+        success, image = camera.read()
+        if not success:
+            raise RuntimeError("Échec de la capture d'image")
+        
+        # Sauvegarder l'image
+        cv2.imwrite(chemin_complet, image)
+        return f'intrus/{nom_fichier}'
+        
+    except Exception as e:
+        logger.error(f"Erreur capture caméra: {str(e)}")
+        return None
+    finally:
+        if 'camera' in locals():
+            camera.release()
 
 def enregistrer_alerte(image_path, statut="intrus", confiance=95.0, details=""):
-    """
-    Enregistre une nouvelle alerte
-    """
-    # Générer un nom de fichier unique
-    nom_fichier = f"intrus_{timezone.now().strftime('%Y%m%d%H%M%S')}.jpg"
-    nouveau_chemin = f"intrus_detectes/{nom_fichier}"
-    
-    # Copier l'image dans le bon dossier
-    os.makedirs(os.path.join(settings.MEDIA_ROOT, 'intrus_detectes'), exist_ok=True)
-    shutil.copy(image_path, os.path.join(settings.MEDIA_ROOT, nouveau_chemin))
-    
-    # Créer l'alerte
-    alerte = AlerteAcces.objects.create(
-        nom="Détection automatique",
-        statut=statut,
-        confiance=confiance,
-        image=nouveau_chemin,
-        details=details
-    )
-    
-    # Envoyer les alertes si intrus
-    if statut == 'intrus':
-        image_url = f"{settings.SITE_URL}{settings.MEDIA_URL}{nouveau_chemin}"
-        message = f"🚨 INTRUS DÉTECTÉ!\n\nDate: {timezone.now().strftime('%Y-%m-%d %H:%M')}\n"
-        message += f"Confiance: {confiance}%\nImage: {image_url}"
+    """Enregistre une alerte avec vectorisation RGPD"""
+    try:
+        # Lire et anonymiser l'image
+        img = cv2.imread(os.path.join(settings.MEDIA_ROOT, image_path))
+        if img is None:
+            raise ValueError("Impossible de lire l'image capturée")
         
-        send_sms_alert(message)
-        send_email_alert("ALERTE INTRUS", message, os.path.join(settings.MEDIA_ROOT, nouveau_chemin), image_url)
-    
-    return alerte
+        # Floutage RGPD
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+        faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+        
+        for (x, y, w, h) in faces:
+            img[y:y+h, x:x+w] = cv2.blur(img[y:y+h, x:x+w], (30, 30))
+        
+        # Convertir en vecteur
+        vector_data = image_to_secure_vector(img)
+        
+        # Créer l'alerte
+        alerte = AlerteAcces.objects.create(
+            nom="Détection automatique",
+            statut=statut,
+            confiance=confiance,
+            details=details,
+            vecteur_visage=vector_data
+        )
+        
+        # Supprimer l'image originale
+        os.remove(os.path.join(settings.MEDIA_ROOT, image_path))
+        
+        return alerte
+        
+    except Exception as e:
+        logger.error(f"Erreur enregistrement alerte: {str(e)}")
+        raise
     
     # Envoi des alertes par email et SMS
     #envoyer_email_alerte(ip, tentative)
@@ -291,10 +344,11 @@ def comparer_images(image1_path, image2_path, seuil=30):
 def detecter_intrus(image_path, seuil_similarite=30):
     """
     Compare l'image avec celles du dossier autorisés
+    Retourne True si intrus (non reconnu), False si personne autorisée
     """
     dossier_autorises = os.path.join(settings.MEDIA_ROOT, 'autorises')
     
-    # Si pas d'images autorisées, tout est intrus
+    # Si pas d'images autorisées, tout est considéré comme intrus
     if not os.path.exists(dossier_autorises) or not os.listdir(dossier_autorises):
         return True
     
@@ -302,6 +356,14 @@ def detecter_intrus(image_path, seuil_similarite=30):
     img_test = cv2.imread(image_path)
     if img_test is None:
         return True
+    
+    # Détection de visage (optionnel)
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+    gray = cv2.cvtColor(img_test, cv2.COLOR_BGR2GRAY)
+    faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+    
+    if len(faces) == 0:
+        return True  # Aucun visage détecté = intrus
     
     for fichier in os.listdir(dossier_autorises):
         if fichier.lower().endswith(('.png', '.jpg', '.jpeg')):
@@ -314,11 +376,11 @@ def detecter_intrus(image_path, seuil_similarite=30):
             # Redimensionner pour comparaison
             img_test_resized = cv2.resize(img_test, (img_autorise.shape[1], img_autorise.shape[0]))
             
-            # Calculer la similarité (méthode simple)
+            # Calculer la similarité
             diff = cv2.absdiff(img_autorise, img_test_resized)
             similarity = np.mean(diff)
             
-            if similarity < seuil_similarite:  # Plus c'est bas, plus c'est similaire
+            if similarity < seuil_similarite:
                 return False  # Personne autorisée trouvée
     
     return True
@@ -328,4 +390,4 @@ def get_client_ip(request):
     x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
     if x_forwarded_for:
         return x_forwarded_for.split(',')[0]
-    return request.META.get('REMOTE_ADDR')
+    return request.META.get('REMOTE_ADDR') 

@@ -379,31 +379,60 @@ def envoyer_alertes(alerte):
 
 @user_passes_test(admin_required)
 @csrf_exempt
+@require_http_methods(["GET", "POST"])
 def detection_temps_reel(request):
-    if request.method == 'POST':
-        # Simuler la détection (75% de chance de détection)
-        if random.random() < 0.75:
-            alerte = AlerteAcces.objects.create(
-                nom="Intrus détecté",
-                confiance=round(random.uniform(80.0, 99.9), 1),
-                statut='intrus'
-            )
+    if request.method == 'GET':
+        return render(request, 'securite/detection_temps_reel.html')
+    elif request.method == 'POST':
+        try:
+            # Capture depuis la webcam
+            image_path = capturer_intrus()
+            if not image_path:
+                return JsonResponse({
+                    'status': 'error',
+                    'message': 'Échec de la capture'
+                }, status=500)
+
+            full_path = os.path.join(settings.MEDIA_ROOT, image_path)
             
-            # Envoyer les alertes
-            envoyer_alertes(alerte)
+            # Détection d'intrus
+            is_intruder = detecter_intrus(full_path)
             
+            if is_intruder:
+                # Enregistrement sans image (seulement le vecteur)
+                alerte = enregistrer_alerte(
+                    full_path,
+                    statut="intrus",
+                    confiance=95.0,
+                    details="Détection automatique"
+                )
+                
+                # Envoi des alertes sans URL d'image
+                message = f"🚨 INTRUS DÉTECTÉ!\nDate: {timezone.now().strftime('%d/%m/%Y %H:%M')}"
+                send_sms_alert(message)
+                send_email_alert("ALERTE INTRUS", message, alerte.vecteur_visage, alerte.id)
+                
+                return JsonResponse({
+                    'status': 'success',
+                    'message': 'Intrus détecté et alertes envoyées',
+                    'alert_id': alerte.id
+                })
+            else:
+                # Suppression de l'image si personne autorisée
+                os.remove(full_path)
+                return JsonResponse({
+                    'status': 'success',
+                    'message': 'Personne autorisée - Aucune donnée conservée'
+                })
+                
+        except Exception as e:
+            logger.error(f"Erreur détection: {str(e)}")
             return JsonResponse({
-                'status': 'success',
-                'message': 'Intrus détecté ! Alertes envoyées.',
-                'confidence': alerte.confiance,
-                'alert_id': alerte.id
-            })
-        return JsonResponse({
-            'status': 'success',
-            'message': 'Aucun intrus détecté'
-        })
+                'status': 'error',
+                'message': str(e)
+            }, status=500)
     
-    return render(request, 'securite/detection_temps_reel.html')
+    #return HttpResponseNotAllowed(['POST'])
     
     # Cas normal (pas d'intrus)
 

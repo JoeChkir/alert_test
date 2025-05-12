@@ -1173,3 +1173,151 @@ INFO 2025-05-12 13:11:19,139 __init__ Response Headers: {'Content-Type': 'applic
 INFO 2025-05-12 13:11:39,301 utils Email d'alerte envoyé à youssefsk.chkir@gmail.com (Alerte ID: 27)
 INFO 2025-05-12 13:14:26,275 autoreload Watching for file changes with StatReloader
 WARNING 2025-05-12 13:14:38,571 log Not Found: /favicon.ico
+INFO 2025-05-12 16:07:22,067 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-12 16:07:30,583 log Not Found: /favicon.ico
+INFO 2025-05-12 21:05:17,838 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-12 21:05:35,071 views Erreur détection: AlerteAcces() got unexpected keyword arguments: 'image', 'details'
+ERROR 2025-05-12 21:05:35,072 log Internal Server Error: /detection/
+INFO 2025-05-12 21:09:04,755 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-12 21:09:20,938 views Erreur détection: AlerteAcces() got unexpected keyword arguments: 'image', 'details'
+ERROR 2025-05-12 21:09:20,939 log Internal Server Error: /detection/
+INFO 2025-05-12 21:15:39,603 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-12 21:15:54,347 views Erreur détection: AlerteAcces() got unexpected keyword arguments: 'image', 'details'
+ERROR 2025-05-12 21:15:54,347 log Internal Server Error: /detection/
+INFO 2025-05-12 21:35:42,723 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-12 21:35:53,977 log Forbidden: /detection/
+WARNING 2025-05-12 21:35:57,513 log Forbidden: /detection/
+INFO 2025-05-12 21:37:47,056 autoreload C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\utils.py changed, reloading.
+INFO 2025-05-12 21:37:47,746 autoreload Watching for file changes with StatReloader
+INFO 2025-05-12 21:37:52,417 autoreload C:\Users\USER\OneDrive\Bureau\SSIR2\tatou\projet\alert_test\securite\utils.py changed, reloading.
+INFO 2025-05-12 21:37:52,958 autoreload Watching for file changes with StatReloader
+INFO 2025-05-12 21:50:32,781 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-12 21:50:51,663 utils Erreur capture caméra: type object 'datetime.time' has no attribute 'sleep'
+INFO 2025-05-12 21:50:53,192 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-12 21:50:53,193 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-12 21:50:53,193 __init__ Headers:
+INFO 2025-05-12 21:50:53,194 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-12 21:50:53,194 __init__ Accept : application/json
+INFO 2025-05-12 21:50:53,195 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-12 21:50:53,195 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-12 21:50:53,195 __init__ Accept-Charset : utf-8
+INFO 2025-05-12 21:50:53,196 __init__ -- END Twilio API Request --
+INFO 2025-05-12 21:50:53,938 __init__ Response Status Code: 400
+INFO 2025-05-12 21:50:53,940 __init__ Response Headers: {'Content-Type': 'application/json', 'Content-Length': '168', 'Connection': 'keep-alive', 'Date': 'Mon, 12 May 2025 19:50:53 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '21603', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ1839274aff1cf48eada37b07250194ef', 'Twilio-Request-Duration': '0.071', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 3d31b9207a0bab7982999e9846baee80.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'CDG53-C1', 'X-Amz-Cf-Id': '3c7hCKbypdlt2ceKD5ExDmd1mIOj2OB2_IljHRJdwt1y9ZJwdzuvtg==', 'Vary': 'Origin'}
+INFO 2025-05-12 21:50:57,647 utils Email d'alerte envoyé à youssefsk.chkir@gmail.com (Alerte ID: 28)
+INFO 2025-05-12 21:50:57,658 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-12 21:50:57,671 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-12 21:50:57,672 __init__ Headers:
+INFO 2025-05-12 21:50:57,673 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-12 21:50:57,674 __init__ Accept : application/json
+INFO 2025-05-12 21:50:57,674 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-12 21:50:57,675 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-12 21:50:57,676 __init__ Accept-Charset : utf-8
+INFO 2025-05-12 21:50:57,676 __init__ -- END Twilio API Request --
+INFO 2025-05-12 21:50:57,954 __init__ Response Status Code: 400
+INFO 2025-05-12 21:50:57,955 __init__ Response Headers: {'Content-Type': 'application/json', 'Content-Length': '168', 'Connection': 'keep-alive', 'Date': 'Mon, 12 May 2025 19:50:57 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '21603', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ037fbfa0728e132e97f18709ba65537c', 'Twilio-Request-Duration': '0.055', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 0427e61e9a445e92793b25f38fbdcb74.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'CDG53-C1', 'X-Amz-Cf-Id': 'ExYf6N1WeQy6ROwzcqTF9j-5CLHwLkucAmIvjGSHY6AZczWKgEk3Ug==', 'Vary': 'Origin'}
+ERROR 2025-05-12 21:51:00,119 views Erreur détection: 'AlerteAcces' object has no attribute 'image'
+ERROR 2025-05-12 21:51:00,120 log Internal Server Error: /detection/
+INFO 2025-05-12 21:51:09,501 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-12 21:51:22,334 utils Erreur capture caméra: type object 'datetime.time' has no attribute 'sleep'
+INFO 2025-05-12 21:51:23,855 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-12 21:51:23,855 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-12 21:51:23,856 __init__ Headers:
+INFO 2025-05-12 21:51:23,856 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-12 21:51:23,857 __init__ Accept : application/json
+INFO 2025-05-12 21:51:23,857 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-12 21:51:23,858 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-12 21:51:23,858 __init__ Accept-Charset : utf-8
+INFO 2025-05-12 21:51:23,859 __init__ -- END Twilio API Request --
+INFO 2025-05-12 21:51:24,159 __init__ Response Status Code: 400
+INFO 2025-05-12 21:51:24,160 __init__ Response Headers: {'Content-Type': 'application/json', 'Content-Length': '168', 'Connection': 'keep-alive', 'Date': 'Mon, 12 May 2025 19:51:23 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '21603', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQa3be5f862693c3d1870babf4eb43dc47', 'Twilio-Request-Duration': '0.051', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 e2dc4178fd5d89ed6c6e3cd0e2e53fa6.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'CDG53-C1', 'X-Amz-Cf-Id': 'ccvaSAUjVPWPuL8C8M6dBSXMZ7l-GFd0C7JOVjpuX1uiSiS_PQtCzA==', 'Vary': 'Origin'}
+INFO 2025-05-12 21:51:27,419 utils Email d'alerte envoyé à youssefsk.chkir@gmail.com (Alerte ID: 29)
+INFO 2025-05-12 21:51:27,427 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-12 21:51:27,428 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-12 21:51:27,428 __init__ Headers:
+INFO 2025-05-12 21:51:27,441 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-12 21:51:27,442 __init__ Accept : application/json
+INFO 2025-05-12 21:51:27,442 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-12 21:51:27,443 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-12 21:51:27,443 __init__ Accept-Charset : utf-8
+INFO 2025-05-12 21:51:27,444 __init__ -- END Twilio API Request --
+INFO 2025-05-12 21:51:27,743 __init__ Response Status Code: 400
+INFO 2025-05-12 21:51:27,744 __init__ Response Headers: {'Content-Type': 'application/json', 'Content-Length': '168', 'Connection': 'keep-alive', 'Date': 'Mon, 12 May 2025 19:51:27 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '21603', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQfcb16e1293f0cf9da4605ddd9cd1ab3b', 'Twilio-Request-Duration': '0.056', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 ee57e278d5f96045a012c4c3d8da58f8.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'CDG53-C1', 'X-Amz-Cf-Id': 'PEhxNQTkpl0oG7CZBJcfMVmQfQQ97M7_2Rw7Pv-o_0l3SVcdXgcYXA==', 'Vary': 'Origin'}
+ERROR 2025-05-12 21:51:29,966 views Erreur détection: 'AlerteAcces' object has no attribute 'image'
+ERROR 2025-05-12 21:51:29,969 log Internal Server Error: /detection/
+INFO 2025-05-12 22:32:24,448 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-12 22:32:44,357 utils Erreur capture caméra: type object 'datetime.time' has no attribute 'sleep'
+INFO 2025-05-12 22:32:45,629 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-12 22:32:45,631 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-12 22:32:45,631 __init__ Headers:
+INFO 2025-05-12 22:32:45,631 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-12 22:32:45,631 __init__ Accept : application/json
+INFO 2025-05-12 22:32:45,632 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-12 22:32:45,632 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-12 22:32:45,633 __init__ Accept-Charset : utf-8
+INFO 2025-05-12 22:32:45,633 __init__ -- END Twilio API Request --
+INFO 2025-05-12 22:32:46,021 __init__ Response Status Code: 400
+INFO 2025-05-12 22:32:46,021 __init__ Response Headers: {'Content-Type': 'application/json', 'Content-Length': '168', 'Connection': 'keep-alive', 'Date': 'Mon, 12 May 2025 20:32:45 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '21603', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQe4d8f1e7944b828d85e2f70a3453aa4d', 'Twilio-Request-Duration': '0.073', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 eec9be221976a0f1f534314350ddb7ac.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MRS53-P2', 'X-Amz-Cf-Id': 'a8ryIevTordEadvtlDFAFfIJoxodY3FqRxkNKOUxbdSEVrsB32-fQw==', 'Vary': 'Origin'}
+INFO 2025-05-12 22:32:50,007 utils Email d'alerte envoyé à youssefsk.chkir@gmail.com (Alerte ID: 30)
+INFO 2025-05-12 22:32:50,028 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-12 22:32:50,031 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-12 22:32:50,033 __init__ Headers:
+INFO 2025-05-12 22:32:50,034 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-12 22:32:50,036 __init__ Accept : application/json
+INFO 2025-05-12 22:32:50,037 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-12 22:32:50,038 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-12 22:32:50,039 __init__ Accept-Charset : utf-8
+INFO 2025-05-12 22:32:50,040 __init__ -- END Twilio API Request --
+INFO 2025-05-12 22:32:50,300 __init__ Response Status Code: 400
+INFO 2025-05-12 22:32:50,301 __init__ Response Headers: {'Content-Type': 'application/json', 'Content-Length': '168', 'Connection': 'keep-alive', 'Date': 'Mon, 12 May 2025 20:32:49 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '21603', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQd7e8b3b1effc0f570ae58344dcbd25bc', 'Twilio-Request-Duration': '0.056', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 90af391c9130b092e9033cc3f433a858.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MRS53-P2', 'X-Amz-Cf-Id': 'Mk7tBLyQE3DcAIvU8idPy5JRE5zPptI6UxfqYLe-E91Li63clyCBEA==', 'Vary': 'Origin'}
+ERROR 2025-05-12 22:32:52,391 views Erreur détection: 'AlerteAcces' object has no attribute 'image'
+ERROR 2025-05-12 22:32:52,391 log Internal Server Error: /detection/
+INFO 2025-05-12 22:37:30,975 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-12 22:37:55,292 log Not Found: /favicon.ico
+INFO 2025-05-12 22:54:12,525 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-12 22:54:21,949 log Method Not Allowed (GET): /detection/
+WARNING 2025-05-12 22:54:25,280 log Method Not Allowed (GET): /detection/
+WARNING 2025-05-12 22:54:26,974 log Method Not Allowed (GET): /detection/
+WARNING 2025-05-12 22:54:27,572 log Method Not Allowed (GET): /detection/
+WARNING 2025-05-12 22:54:28,069 log Method Not Allowed (GET): /detection/
+WARNING 2025-05-12 22:54:28,633 log Method Not Allowed (GET): /detection/
+INFO 2025-05-12 23:05:34,025 autoreload Watching for file changes with StatReloader
+INFO 2025-05-12 23:05:49,895 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-12 23:05:49,896 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-12 23:05:49,896 __init__ Headers:
+INFO 2025-05-12 23:05:49,897 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-12 23:05:49,897 __init__ Accept : application/json
+INFO 2025-05-12 23:05:49,898 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-12 23:05:49,898 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-12 23:05:49,898 __init__ Accept-Charset : utf-8
+INFO 2025-05-12 23:05:49,899 __init__ -- END Twilio API Request --
+INFO 2025-05-12 23:05:50,258 __init__ Response Status Code: 400
+INFO 2025-05-12 23:05:50,259 __init__ Response Headers: {'Content-Type': 'application/json', 'Content-Length': '168', 'Connection': 'keep-alive', 'Date': 'Mon, 12 May 2025 21:05:49 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '21603', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ422c488167475a3d444d83f1687ac909', 'Twilio-Request-Duration': '0.090', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 cf8e48b6b59783e700f52b2caddd748e.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MRS53-P2', 'X-Amz-Cf-Id': 'Cg3AulBC_6SvM2lMm9jG4cyPObqiwYCbA2lyQ3BD5-hUlBYP2Ml6iw==', 'Vary': 'Origin'}
+INFO 2025-05-12 23:05:53,662 utils Email d'alerte envoyé à youssefsk.chkir@gmail.com (Alerte ID: 31)
+INFO 2025-05-12 23:11:12,762 autoreload Watching for file changes with StatReloader
+INFO 2025-05-12 23:11:28,459 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-12 23:11:28,459 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-12 23:11:28,460 __init__ Headers:
+INFO 2025-05-12 23:11:28,460 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-12 23:11:28,461 __init__ Accept : application/json
+INFO 2025-05-12 23:11:28,461 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-12 23:11:28,462 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-12 23:11:28,462 __init__ Accept-Charset : utf-8
+INFO 2025-05-12 23:11:28,462 __init__ -- END Twilio API Request --
+INFO 2025-05-12 23:11:28,884 __init__ Response Status Code: 201
+INFO 2025-05-12 23:11:28,884 __init__ Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '864', 'Connection': 'keep-alive', 'Date': 'Mon, 12 May 2025 21:11:28 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ305744bb0640874e4a885558cd7a3fba', 'Twilio-Request-Duration': '0.160', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 3c68da4e2bec045a9de76e0b23bd66d4.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MRS53-P2', 'X-Amz-Cf-Id': 'aYgsKScyHdEg7Xd_0xjxnUiUuxzB7KOTsPLhJBZIGUmHFCaakSG-FA==', 'Vary': 'Origin'}
+INFO 2025-05-12 23:11:28,885 utils SMS envoyé à +21655073576
+INFO 2025-05-12 23:11:32,294 utils Email d'alerte envoyé à youssefsk.chkir@gmail.com (Alerte ID: 32)
+INFO 2025-05-12 23:15:45,641 utils Email d'alerte envoyé à youssefsk.chkir@gmail.com (Alerte ID: 32)
+INFO 2025-05-12 23:15:56,435 __init__ -- BEGIN Twilio API Request --
+INFO 2025-05-12 23:15:56,435 __init__ POST Request: https://api.twilio.com/2010-04-01/Accounts/ACa10288049c480b52d8b28a0daa0b2c23/Messages.json
+INFO 2025-05-12 23:15:56,435 __init__ Headers:
+INFO 2025-05-12 23:15:56,435 __init__ Content-Type : application/x-www-form-urlencoded
+INFO 2025-05-12 23:15:56,435 __init__ Accept : application/json
+INFO 2025-05-12 23:15:56,436 __init__ User-Agent : twilio-python/9.6.0 (Windows AMD64) Python/3.13.2
+INFO 2025-05-12 23:15:56,436 __init__ X-Twilio-Client : python-9.6.0
+INFO 2025-05-12 23:15:56,436 __init__ Accept-Charset : utf-8
+INFO 2025-05-12 23:15:56,436 __init__ -- END Twilio API Request --
+INFO 2025-05-12 23:15:56,809 __init__ Response Status Code: 201
+INFO 2025-05-12 23:15:56,810 __init__ Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '824', 'Connection': 'keep-alive', 'Date': 'Mon, 12 May 2025 21:15:56 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQc7817606f509e2fbf95fc382d55d58bd', 'Twilio-Request-Duration': '0.138', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 cafd5573a4a41b5f36291b18b345f228.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'MRS53-P2', 'X-Amz-Cf-Id': 'jzpOU5iy-HOUqq2nSfT0yamxM-Tq261jdzKGLiW1Jabns3ChU0dkZQ==', 'Vary': 'Origin'}
+INFO 2025-05-12 23:15:56,811 utils SMS envoyé à +21655073576

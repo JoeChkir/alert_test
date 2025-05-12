@@ -16,7 +16,12 @@
             </button>
             
             <div id="statusMessage" class="mt-3 alert" style="display:none;"></div>
-            <div id="results" class="mt-4"></div>
+            
+            <!-- Nouvelle section results -->
+            <div id="results" class="mt-4">
+                <!-- Le contenu sera rempli dynamiquement par JavaScript -->
+            </div>
+            
             <div id="debug-console" class="mt-4 p-3 bg-dark text-white rounded"></div>
         </div>
     </div>
@@ -36,6 +41,11 @@ document.addEventListener('DOMContentLoaded', function() {
         debugConsole.scrollTop = debugConsole.scrollHeight;
     }
 
+    function getCSRFToken() {
+        const csrfInput = document.querySelector('input[name="csrfmiddlewaretoken"]');
+        return csrfInput ? csrfInput.value : null;
+    }
+
     if (!startBtn) {
         logDebug("ERREUR: Bouton non trouvé");
         return;
@@ -43,7 +53,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     startBtn.addEventListener('click', async function() {
         const csrfToken = getCSRFToken();
-        if (!csrfToken) return;
+        if (!csrfToken) {
+            logDebug("ERREUR: Token CSRF manquant");
+            return;
+        }
 
         // Préparation de l'interface
         startBtn.disabled = true;
@@ -51,6 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
         statusDiv.style.display = 'block';
         statusDiv.className = 'alert alert-info';
         statusDiv.innerHTML = 'Analyse en cours...';
+        resultsDiv.innerHTML = ''; // Vider les résultats précédents
         logDebug("Début de la détection");
 
         try {
@@ -70,16 +84,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 statusDiv.className = 'alert alert-success';
                 statusDiv.innerHTML = `<i class="fas fa-check"></i> ${data.message}`;
                 
+                // Construction dynamique du HTML de résultat
                 if (data.alert_id) {
+                    const isIntruder = data.message.includes('Intrus');
                     resultsDiv.innerHTML = `
                         <div class="card mt-3">
-                            <div class="card-header bg-success">
+                            <div class="card-header ${isIntruder ? 'bg-danger' : 'bg-success'}">
                                 Alerte #${data.alert_id}
                             </div>
                             <div class="card-body">
-                                <h5>${data.nom || 'Intrus détecté'}</h5>
+                                ${data.image_url ? `<img src="${data.image_url}" class="img-fluid mb-3" alt="Capture">` : ''}
+                                <h5>${isIntruder ? 'INTRUS DÉTECTÉ' : 'Personne autorisée'}</h5>
                                 <p>Confiance: ${data.confidence}%</p>
                                 <p>${new Date().toLocaleString()}</p>
+                                ${isIntruder ? `
+                                <div class="alert alert-warning">
+                                    <i class="fas fa-exclamation-triangle"></i> Alertes envoyées aux agents
+                                </div>
+                                ` : ''}
                             </div>
                         </div>
                     `;

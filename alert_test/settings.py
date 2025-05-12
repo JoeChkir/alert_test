@@ -189,9 +189,9 @@ CRONJOBS = [
     ('0 3 * * *', 'securite.gdpr_utils.purger_donnees')
 ]
 
-TWILIO_ACCOUNT_SID = 'SID'
-TWILIO_AUTH_TOKEN = 'TOKEN'
-TWILIO_PHONE_NUMBER = 'NUMBER'
+TWILIO_ACCOUNT_SID = ''
+TWILIO_AUTH_TOKEN = ''
+TWILIO_PHONE_NUMBER = ''
 
 # Paramètres Email
 EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
