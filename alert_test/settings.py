@@ -190,15 +190,15 @@ CRONJOBS = [
 ]
 
 # Paramètres Twilio
-TWILIO_ACCOUNT_SID = 'sid'
-TWILIO_AUTH_TOKEN = 'TOKEN'
-TWILIO_PHONE_NUMBER = 'PHONE'
+TWILIO_ACCOUNT_SID = ''
+TWILIO_AUTH_TOKEN = ''
+TWILIO_PHONE_NUMBER = ''
 
 # Paramètres Email
 EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'USERNAME'
-EMAIL_HOST_PASSWORD = 'password'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 DEFAULT_FROM_EMAIL = 'security@example.com'
 
 # URL du site utilisée dans les alertes
