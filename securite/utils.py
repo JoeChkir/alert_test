@@ -157,7 +157,7 @@ def envoyer_email_alerte(ip, tentative):
     send_mail(
         subject='🚨 Alerte tentative d’accès',
         message=f'Tentative: {tentative}\nIP: {ip}',
-        from_email='youssefsk.chkir@gmail.com',  # Doit correspondre à celui de settings.py
+        from_email='put_your_email',  # Doit correspondre à celui de settings.py
         recipient_list=['admin@exemple.com'],   # Mets ici ton vrai mail
     )
 
